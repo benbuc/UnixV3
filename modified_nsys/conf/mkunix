@@ -1,0 +1,10 @@
+as mch.s
+mv a.out mch.o
+cc -c c.c
+as l.s
+mv a.out l.o
+ld -x l.o mch.o c.o ../dmr/gput.o ../lib1 ../lib2
+mv a.out unix
+nm -n unix > namelist
+ls -l unix
+size unix

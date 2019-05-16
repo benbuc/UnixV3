@@ -1,0 +1,51 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.2
+date	99.01.14.21.44.58;	author mhol;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.01.14.21.41.41;	author mhol;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@v5 filesystem compatibility
+@
+text
+@struct	filsys
+{
+	int	s_isize;
+	int	s_fsize;
+	int	s_nfree;
+	int	s_free[100];
+	int	s_ninode;
+	int	s_inode[100];
+	char	s_flock;
+	char	s_ilock;
+	char	s_fmod;
+	char    s_ronly;	/* Added for v5 filesystem compatibility */
+	int	s_time[2];
+};
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d12 1
+@

@@ -1,0 +1,5 @@
+cc -c -O *.c
+as gput.s
+mv a.out gput.o
+rm ../lib2
+ar vr ../lib2 *.o

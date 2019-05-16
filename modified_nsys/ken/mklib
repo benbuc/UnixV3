@@ -1,0 +1,4 @@
+cc -c -O *.c
+rm ../lib1
+ar vr ../lib1 main.o alloc.o iget.o prf.o rdwri.o slp.o subr.o text.o trap.o \
+ sig.o sysent.o clock.o fio.o malloc.o nami.o prproc.o sys1.o sys2.o sys3.o sys4.o
