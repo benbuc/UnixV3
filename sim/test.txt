@@ -1,0 +1,9 @@
+
+PDP-11 simulator V4.0-0 Current        git commit id: 05f84879
+Disabling XQ
+@unix
+
+;login: root
+# 
+Simulation stopped, PC: 001726 (MOV (SP)+,177776)
+Goodbye

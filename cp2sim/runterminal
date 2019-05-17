@@ -1,0 +1,4 @@
+osascript -e 'tell app "Terminal"
+    do script "cd StudiumHPI/Betriebssysteme2/UnixV3/cp2sim"
+    do script "StudiumHPI/Betriebssysteme2/HistoryUnix/simh/BIN/pdp11"
+end tell'
