@@ -1,0 +1,4590 @@
+Benitos-MBP:sim benito$ ./run.sh 
+
+PDP-11 simulator V4.0-0 Current        git commit id: 05f84879
+Disabling XQ
+@unix
+
+login: root
+# chdir /sys/nsys
+# chdir ken
+# cat mklib
+cc -c -O *.c
+rm ../lib1
+ar vr ../lib1 main.o alloc.o iget.o prf.o rdwri.o slp.o subr.o text.o trap.o \
+ sig.o sysent.o clock.o fio.o malloc.o nami.o prproc.o sys1.o sys2.o sys3.o sys4.o
+
+# sh mklib
+alloc.c:
+2: Expression syntax
+2: External definition syntax
+2: External definition syntax
+10: Unknown keyword
+10: Statement syntax
+11: Unknown keyword
+11: Statement syntax
+13: Lvalue required
+14: Lvalue required
+15: Illegal structure ref
+15: Illegal lvalue
+15: Lvalue required
+17: Lvalue required
+17: Lvalue required
+18: Illegal structure ref
+18: Illegal conversion
+18: Illegal indirection
+18: Illegal structure ref
+18: Illegal conversion
+18: Illegal indirection
+20: Illegal structure ref
+21: Illegal structure ref
+22: Illegal structure ref
+22: Lvalue required
+23: Illegal structure ref
+24: Illegal structure ref
+25: Illegal structure ref
+26: Illegal structure ref
+27: Illegal structure ref
+28: bp undefined
+28: cp undefined
+28: .u_error undefined
+28: time undefined
+28: .b_addr undefined
+28: .m_bufp undefined
+28: .s_time undefined
+28: i undefined
+28: u undefined
+28: iinit undefined
+28: ROOTDEV undefined
+28: mount undefined
+28: .m_dev undefined
+28: NODEV undefined
+28: .s_flock undefined
+28: .s_ilock undefined
+28: .s_ninod undefined
+36: Illegal structure ref
+37: Illegal structure ref
+38: Illegal structure ref
+38: Illegal structure ref
+38: Illegal conversion
+38: Illegal indirection
+40: Illegal structure ref
+42: Illegal structure ref
+42: Illegal lvalue
+42: Lvalue required
+45: Illegal structure ref
+46: Illegal structure ref
+48: Illegal structure ref
+49: Illegal structure ref
+51: Illegal structure ref
+53: Illegal structure ref
+54: Illegal structure ref
+59: cp undefined
+59: .u_error undefined
+59: time undefined
+59: .b_addr undefined
+59: ENOSPC undefined
+59: .s_free undefined
+59: .m_bufp undefined
+59: .s_time undefined
+59: NULL undefined
+59: u undefined
+59: iinit undefined
+59: ROOTDEV undefined
+59: mount undefined
+59: .m_dev undefined
+59: PINOD undefined
+59: NODEV undefined
+59: .s_flock undefined
+59: .s_nfree undefined
+59: .s_ilock undefined
+59: .s_ninod undefined
+63: i redeclared
+64: bp redeclared
+67: Illegal structure ref
+68: Illegal structure ref
+69: Illegal structure ref
+70: Illegal structure ref
+72: Illegal structure ref
+73: Illegal structure ref
+75: Illegal structure ref
+76: Illegal structure ref
+78: Illegal structure ref
+79: Illegal structure ref
+81: Illegal structure ref
+81: Illegal structure ref
+81: Illegal conversion
+81: Illegal indirection
+82: cp undefined
+82: .u_error undefined
+82: time undefined
+82: .b_addr undefined
+82: .s_free undefined
+82: .m_bufp undefined
+82: .s_time undefined
+82: u undefined
+82: iinit undefined
+82: ROOTDEV undefined
+82: mount undefined
+82: .m_dev undefined
+82: PINOD undefined
+82: NODEV undefined
+82: .s_flock undefined
+82: .s_nfree undefined
+82: .s_ilock undefined
+82: .s_ninod undefined
+86: bp redeclared
+87: i redeclared
+90: Illegal structure ref
+91: Illegal structure ref
+93: Illegal structure ref
+94: Illegal structure ref
+94: Illegal structure ref
+94: Illegal conversion
+94: Illegal indirection
+96: Illegal structure ref
+102: Illegal structure ref
+104: Illegal structure ref
+106: Illegal structure ref
+112: Illegal structure ref
+112: Illegal structure ref
+114: Illegal structure ref
+114: Illegal structure ref
+114: Illegal conversion
+114: Illegal indirection
+115: Illegal structure ref
+119: Illegal structure ref
+122: Illegal structure ref
+124: Illegal structure ref
+125: Illegal structure ref
+127: .s_isize undefined
+127: cp undefined
+127: .u_error undefined
+127: time undefined
+127: NINODE undefined
+127: .b_addr undefined
+127: .i_mode undefined
+127: .m_bufp undefined
+127: .s_time undefined
+127: u undefined
+127: inode undefined
+127: iinit undefined
+127: ROOTDEV undefined
+127: mount undefined
+127: .i_dev undefined
+127: .m_dev undefined
+127: PINOD undefined
+127: NODEV undefined
+127: .i_numbe undefined
+127: .s_flock undefined
+127: .s_inode undefined
+127: .s_ilock undefined
+127: .s_ninod undefined
+134: Illegal structure ref
+136: Illegal structure ref
+138: Illegal structure ref
+138: Illegal structure ref
+138: Illegal conversion
+138: Illegal indirection
+139: cp undefined
+139: .u_error undefined
+139: time undefined
+139: .b_addr undefined
+139: .m_bufp undefined
+139: .s_time undefined
+139: u undefined
+139: iinit undefined
+139: ROOTDEV undefined
+139: mount undefined
+139: .m_dev undefined
+139: NODEV undefined
+139: .s_flock undefined
+139: .s_inode undefined
+139: .s_ilock undefined
+139: .s_ninod undefined
+143: i redeclared
+146: Illegal structure ref
+146: Illegal structure ref
+147: Illegal structure ref
+147: Illegal structure ref
+148: Illegal structure ref
+153: cp undefined
+153: .u_error undefined
+153: time undefined
+153: .b_addr undefined
+153: .s_fmod undefined
+153: .m_bufp undefined
+153: NMOUNT undefined
+153: .s_time undefined
+153: NULL undefined
+153: u undefined
+153: iinit undefined
+153: ROOTDEV undefined
+153: mount undefined
+153: .m_dev undefined
+153: NODEV undefined
+153: .s_flock undefined
+153: .s_ilock undefined
+153: .s_ninod undefined
+157: i redeclared
+157: bp redeclared
+164: Illegal structure ref
+165: Illegal structure ref
+165: Illegal structure ref
+166: Illegal structure ref
+166: Illegal structure ref
+166: Illegal structure ref
+168: Illegal structure ref
+169: Illegal structure ref
+170: Illegal structure ref
+171: Illegal structure ref
+172: Illegal structure ref
+179: Illegal structure ref
+179: Illegal conversion
+180: Illegal structure ref
+180: Illegal conversion
+182: Illegal structure ref
+182: Illegal conversion
+183: Illegal structure ref
+183: Illegal conversion
+189: cp undefined
+189: .u_error undefined
+189: time undefined
+189: NINODE undefined
+189: .b_addr undefined
+189: .i_flag undefined
+189: .s_fmod undefined
+189: .m_bufp undefined
+189: NMOUNT undefined
+189: .s_time undefined
+189: NULL undefined
+189: u undefined
+189: inode undefined
+189: iinit undefined
+189: ROOTDEV undefined
+189: mount undefined
+189: .m_dev undefined
+189: ILOCK undefined
+189: NODEV undefined
+189: .s_flock undefined
+189: .s_ilock undefined
+189: IWANT undefined
+189: .s_ninod undefined
+191: cp undefined
+191: .u_error undefined
+191: time undefined
+191: .b_addr undefined
+191: .m_bufp undefined
+191: .s_time undefined
+191: u undefined
+191: iinit undefined
+191: ROOTDEV undefined
+191: mount undefined
+191: .m_dev undefined
+191: NODEV undefined
+191: .s_flock undefined
+191: .s_ilock undefined
+191: .s_ninod undefined
+clock.c:
+2: Expression syntax
+2: External definition syntax
+2: External definition syntax
+10: Unknown keyword
+10: Statement syntax
+11: define undefined
+11: CSW undefined
+11: integ undefined
+11: PS undefined
+11: UMODE undefined
+11: define undefined
+11: CSW undefined
+11: integ undefined
+11: PS undefined
+11: UMODE undefined
+24: Undefined structure: .proc
+24: Undefined structure: .callo
+24: Illegal structure ref
+30: Illegal structure ref
+31: Illegal structure ref
+34: Illegal structure ref
+36: Illegal structure ref
+37: Illegal structure ref
+38: Illegal structure ref
+45: Illegal structure ref
+54: Illegal structure ref
+54: Illegal structure ref
+56: Illegal structure ref
+65: Illegal structure ref
+67: Illegal structure ref
+67: Illegal structure ref
+68: Illegal structure ref
+68: Illegal structure ref
+68: Call of non-function
+68: Illegal indirection
+72: Illegal structure ref
+72: Illegal structure ref
+73: Illegal structure ref
+73: Illegal structure ref
+74: Illegal structure ref
+74: Illegal structure ref
+87: Illegal structure ref
+87: Illegal lvalue
+87: Lvalue required
+88: Illegal structure ref
+88: Illegal lvalue
+88: Lvalue required
+89: Lvalue required
+92: Lvalue required
+103: Illegal structure ref
+103: Illegal conversion
+111: Illegal structure ref
+111: Illegal conversion
+112: Illegal structure ref
+113: Illegal structure ref
+115: Illegal structure ref
+120: Lvalue required
+129: .u_stime undefined
+129: .u_utime undefined
+129: define undefined
+129: time undefined
+129: LKS undefined
+129: proc undefined
+129: CSW undefined
+129: tout undefined
+129: .p_flag undefined
+129: .c_func undefined
+129: .c_time undefined
+129: .p_cook undefined
+129: u undefined
+129: integ undefined
+129: lbolt undefined
+129: .c_arg undefined
+129: callout undefined
+129: runin undefined
+129: PS undefined
+129: SLOAD undefined
+129: UMODE undefined
+129: .integ undefined
+129: NPROC undefined
+136: Undefined structure: .callo
+136: Illegal structure ref
+139: Illegal structure ref
+139: Illegal structure ref
+140: Illegal structure ref
+140: Illegal conversion
+143: Illegal structure ref
+145: Illegal structure ref
+148: Illegal structure ref
+148: Illegal structure ref
+149: Illegal structure ref
+149: Illegal structure ref
+150: Illegal structure ref
+150: Illegal structure ref
+153: Illegal structure ref
+154: Illegal structure ref
+155: Illegal structure ref
+156: Illegal structure ref
+157: define undefined
+157: CSW undefined
+157: .c_func undefined
+157: .c_time undefined
+157: integ undefined
+157: .c_arg undefined
+157: callout undefined
+157: PS undefined
+157: UMODE undefined
+157: .integ undefined
+159: define undefined
+159: CSW undefined
+159: integ undefined
+159: PS undefined
+159: UMODE undefined
+fio.c:
+2: Expression syntax
+2: External definition syntax
+2: External definition syntax
+10: Unknown keyword
+10: Statement syntax
+14: Illegal structure ref
+14: Illegal lvalue
+14: Lvalue required
+14: Lvalue required
+17: Illegal structure ref
+17: Illegal lvalue
+17: Lvalue required
+18: Lvalue required
+21: .u_error undefined
+21: fp undefined
+21: getf undefined
+21: NOFILE undefined
+21: f undefined
+21: NULL undefined
+21: u undefined
+21: EBADF undefined
+21: .u_ofile undefined
+29: Illegal structure ref
+30: Illegal structure ref
+30: Illegal structure ref
+30: Illegal conversion
+31: Illegal structure ref
+33: Illegal structure ref
+34: .u_error undefined
+34: getf undefined
+34: NOFILE undefined
+34: .f_flag undefined
+34: FWRITE undefined
+34: f undefined
+34: NULL undefined
+34: u undefined
+34: EBADF undefined
+34: .f_inode undefined
+34: .u_ofile undefined
+34: .f_count undefined
+42: Illegal structure ref
+43: Illegal structure ref
+43: Illegal conversion
+45: Constant required
+46: Illegal structure ref
+46: Illegal structure ref
+46: Illegal conversion
+46: Illegal indirection
+46: Illegal structure ref
+47: Illegal structure ref
+47: Call of non-function
+47: Illegal indirection
+50: Constant required
+51: Illegal structure ref
+51: Illegal structure ref
+51: Illegal conversion
+51: Illegal indirection
+51: Illegal structure ref
+52: Illegal structure ref
+52: Call of non-function
+52: Illegal indirection
+55: .u_error undefined
+55: getf undefined
+55: NOFILE undefined
+55: bdevsw undefined
+55: cdevsw undefined
+55: .i_addr undefined
+55: .i_mode undefined
+55: f undefined
+55: IFMT undefined
+55: NULL undefined
+55: u undefined
+55: EBADF undefined
+55: .d_close undefined
+55: .d_major undefined
+55: .u_ofile undefined
+55: .i_count undefined
+63: Illegal structure ref
+63: Illegal conversion
+65: Constant required
+66: Illegal structure ref
+66: Illegal structure ref
+66: Illegal conversion
+66: Illegal indirection
+66: Illegal structure ref
+67: Illegal structure ref
+67: Call of non-function
+67: Illegal indirection
+70: Constant required
+71: Illegal structure ref
+71: Illegal structure ref
+71: Illegal conversion
+71: Illegal indirection
+71: Illegal structure ref
+72: Illegal structure ref
+72: Call of non-function
+72: Illegal indirection
+74: .u_error undefined
+74: getf undefined
+74: NOFILE undefined
+74: bdevsw undefined
+74: cdevsw undefined
+74: .i_addr undefined
+74: .i_mode undefined
+74: .d_open undefined
+74: f undefined
+74: IFMT undefined
+74: NULL undefined
+74: u undefined
+74: EBADF undefined
+74: .d_major undefined
+74: .u_ofile undefined
+81: Illegal structure ref
+81: Illegal lvalue
+81: Lvalue required
+84: Illegal structure ref
+84: Illegal lvalue
+84: Lvalue required
+84: Illegal structure ref
+86: Illegal structure ref
+86: Illegal lvalue
+86: Lvalue required
+86: Illegal structure ref
+89: Illegal structure ref
+91: Illegal structure ref
+91: Illegal lvalue
+91: Lvalue required
+93: .u_error undefined
+93: EACCES undefined
+93: getf undefined
+93: NOFILE undefined
+93: .i_mode undefined
+93: f undefined
+93: NULL undefined
+93: u undefined
+93: EBADF undefined
+93: .i_gid undefined
+93: .u_gid undefined
+93: .i_uid undefined
+93: .u_uid undefined
+93: .u_ofile undefined
+99: Illegal structure ref
+99: Illegal lvalue
+99: Lvalue required
+99: Illegal structure ref
+102: .u_error undefined
+102: getf undefined
+102: NOFILE undefined
+102: f undefined
+102: NULL undefined
+102: u undefined
+102: EBADF undefined
+102: .i_uid undefined
+102: .u_uid undefined
+102: .u_ofile undefined
+107: Illegal structure ref
+107: Illegal lvalue
+107: Lvalue required
+109: Illegal structure ref
+109: Illegal lvalue
+109: Lvalue required
+111: .u_error undefined
+111: getf undefined
+111: NOFILE undefined
+111: f undefined
+111: NULL undefined
+111: u undefined
+111: EBADF undefined
+111: EPERM undefined
+111: .u_uid undefined
+111: .u_ofile undefined
+118: Illegal structure ref
+118: Illegal lvalue
+118: Lvalue required
+118: Illegal indirection
+119: Illegal structure ref
+119: Illegal lvalue
+119: Lvalue required
+122: Illegal structure ref
+122: Illegal lvalue
+122: Lvalue required
+124: .u_error undefined
+124: getf undefined
+124: EMFILE undefined
+124: NOFILE undefined
+124: f undefined
+124: NULL undefined
+124: u undefined
+124: .u_ar0 undefined
+124: R0 undefined
+124: EBADF undefined
+124: .u_ofile undefined
+128: fp redeclared
+131: Undefined structure: .file
+133: Illegal conversion
+133: Illegal indirection
+134: Illegal structure ref
+135: Illegal structure ref
+135: Illegal lvalue
+135: Lvalue required
+135: Illegal indirection
+136: Illegal structure ref
+140: Illegal structure ref
+140: Illegal lvalue
+140: Lvalue required
+142: .u_error undefined
+142: file undefined
+142: getf undefined
+142: ENFILE undefined
+142: NOFILE undefined
+142: f undefined
+142: NULL undefined
+142: u undefined
+142: EBADF undefined
+142: NFILE undefined
+142: .u_ofile undefined
+142: .f_count undefined
+144: .u_error undefined
+144: getf undefined
+144: NOFILE undefined
+144: f undefined
+144: NULL undefined
+144: u undefined
+144: EBADF undefined
+144: .u_ofile undefined
+iget.c:
+2: Expression syntax
+2: External definition syntax
+2: External definition syntax
+9: iget undefined
+9: dev undefined
+9: ino undefined
+10: iget undefined
+10: dev undefined
+11: External definition syntax
+12: Unknown keyword
+12: Statement syntax
+13: Unknown keyword
+13: Statement syntax
+14: Unknown keyword
+14: Statement syntax
+17: Lvalue required
+18: Lvalue required
+19: Lvalue required
+19: Lvalue required
+20: Illegal structure ref
+20: Illegal structure ref
+21: Illegal structure ref
+21: Illegal conversion
+22: Illegal structure ref
+22: Illegal conversion
+24: Illegal structure ref
+24: Illegal conversion
+27: Illegal structure ref
+27: Illegal conversion
+28: Lvalue required
+28: Lvalue required
+29: Illegal conversion
+29: Illegal indirection
+29: Illegal structure ref
+30: Illegal conversion
+30: Illegal indirection
+30: Illegal structure ref
+30: Lvalue required
+34: Illegal structure ref
+35: Illegal structure ref
+35: Illegal conversion
+38: Illegal structure ref
+39: Lvalue required
+40: Lvalue required
+42: Lvalue required
+44: Illegal structure ref
+45: Illegal structure ref
+46: Illegal structure ref
+47: Illegal structure ref
+48: Lvalue required
+49: Illegal structure ref
+49: Lvalue required
+50: Illegal structure ref
+50: Lvalue required
+58: Lvalue required
+58: Lvalue required
+59: Lvalue required
+59: Lvalue required
+63: ip undefined
+63: iget undefined
+63: NINODE undefined
+63: .b_addr undefined
+63: .i_flag undefined
+63: ip1 undefined
+63: ip2 undefined
+63: .i_mode undefined
+63: IMOUNT undefined
+63: NMOUNT undefined
+63: i undefined
+63: p undefined
+63: NULL undefined
+63: dev undefined
+63: inode undefined
+63: ROOTINO undefined
+63: mount undefined
+63: .i_dev undefined
+63: .m_dev undefined
+63: ILOCK undefined
+63: PINOD undefined
+63: .i_numbe undefined
+63: IWANT undefined
+63: .m_inodp undefined
+63: .i_count undefined
+69: Undefined structure: .inode
+69: Illegal structure ref
+70: Illegal structure ref
+70: Illegal conversion
+71: Illegal structure ref
+73: Illegal structure ref
+74: Illegal structure ref
+74: Illegal structure ref
+77: Illegal structure ref
+78: Illegal structure ref
+79: Illegal structure ref
+83: Illegal structure ref
+84: Illegal structure ref
+84: Illegal conversion
+85: Illegal structure ref
+85: Illegal conversion
+87: ip undefined
+87: iget undefined
+87: NINODE undefined
+87: .b_addr undefined
+87: .i_flag undefined
+87: ip1 undefined
+87: ip2 undefined
+87: .i_mode undefined
+87: IMOUNT undefined
+87: NMOUNT undefined
+87: i undefined
+87: NULL undefined
+87: dev undefined
+87: inode undefined
+87: ROOTINO undefined
+87: mount undefined
+87: .i_dev undefined
+87: .m_dev undefined
+87: ILOCK undefined
+87: PINOD undefined
+87: .i_numbe undefined
+87: .i_nlink undefined
+87: IWANT undefined
+87: .m_inodp undefined
+87: .i_count undefined
+89: p redeclared
+90: p redeclared
+95: Illegal structure ref
+95: Illegal conversion
+96: Illegal structure ref
+97: Illegal structure ref
+98: Illegal structure ref
+99: Illegal structure ref
+107: Illegal structure ref
+107: Illegal conversion
+112: Illegal structure ref
+112: Illegal conversion
+117: Illegal structure ref
+117: Illegal conversion
+119: ip undefined
+119: iget undefined
+119: time undefined
+119: NINODE undefined
+119: .b_addr undefined
+119: .i_flag undefined
+119: .i_mode undefined
+119: IACC undefined
+119: IMOUNT undefined
+119: NMOUNT undefined
+119: IUPD undefined
+119: NULL undefined
+119: dev undefined
+119: inode undefined
+119: ROOTINO undefined
+119: mount undefined
+119: .i_dev undefined
+119: .m_dev undefined
+119: ILOCK undefined
+119: PINOD undefined
+119: .i_numbe undefined
+119: IWANT undefined
+119: .m_inodp undefined
+119: .i_count undefined
+124: i redeclared
+127: Illegal structure ref
+127: Illegal conversion
+129: Illegal structure ref
+131: Illegal structure ref
+132: Illegal structure ref
+132: Illegal conversion
+134: Illegal structure ref
+141: Illegal structure ref
+143: Illegal structure ref
+143: Illegal conversion
+144: Illegal structure ref
+145: Illegal structure ref
+146: Illegal structure ref
+146: Illegal conversion
+147: iget undefined
+147: NINODE undefined
+147: .b_addr undefined
+147: .i_flag undefined
+147: .i_addr undefined
+147: .i_mode undefined
+147: IMOUNT undefined
+147: NMOUNT undefined
+147: IUPD undefined
+147: NULL undefined
+147: dev undefined
+147: inode undefined
+147: .i_size0 undefined
+147: .i_size1 undefined
+147: ROOTINO undefined
+147: IFBLK undefined
+147: mount undefined
+147: IFCHR undefined
+147: .i_dev undefined
+147: ILARG undefined
+147: .m_dev undefined
+147: ILOCK undefined
+147: PINOD undefined
+147: .i_numbe undefined
+147: IWANT undefined
+147: .m_inodp undefined
+147: .i_count undefined
+151: ip redeclared
+151: i redeclared
+153: Illegal structure ref
+153: Illegal lvalue
+153: Lvalue required
+153: Illegal structure ref
+154: Illegal structure ref
+154: Illegal conversion
+155: Illegal structure ref
+156: Illegal structure ref
+157: Illegal structure ref
+157: Illegal structure ref
+157: Illegal lvalue
+157: Lvalue required
+158: Illegal structure ref
+158: Illegal structure ref
+158: Illegal lvalue
+158: Lvalue required
+159: Illegal structure ref
+160: Illegal structure ref
+162: Illegal structure ref
+165: iget undefined
+165: IALLOC undefined
+165: NINODE undefined
+165: .b_addr undefined
+165: .i_flag undefined
+165: .i_addr undefined
+165: .i_mode undefined
+165: IACC undefined
+165: IMOUNT undefined
+165: NMOUNT undefined
+165: .u_pdir undefined
+165: IUPD undefined
+165: NULL undefined
+165: u undefined
+165: dev undefined
+165: inode undefined
+165: .i_size0 undefined
+165: .i_size1 undefined
+165: ROOTINO undefined
+165: .i_gid undefined
+165: mount undefined
+165: .i_dev undefined
+165: .u_gid undefined
+165: .i_uid undefined
+165: .m_dev undefined
+165: ILOCK undefined
+165: PINOD undefined
+165: .u_uid undefined
+165: .i_numbe undefined
+165: .i_nlink undefined
+165: IWANT undefined
+165: .m_inodp undefined
+165: .i_count undefined
+167: ip redeclared
+168: ip redeclared
+170: i redeclared
+172: Illegal structure ref
+172: Illegal lvalue
+172: Lvalue required
+172: Illegal structure ref
+172: Illegal structure ref
+174: Illegal structure ref
+174: Illegal lvalue
+174: Lvalue required
+174: Illegal structure ref
+174: Illegal structure ref
+174: Illegal lvalue
+174: Lvalue required
+174: Illegal indirection
+175: Illegal structure ref
+175: Illegal lvalue
+175: Lvalue required
+176: Illegal structure ref
+176: Illegal lvalue
+176: Lvalue required
+177: Illegal structure ref
+177: Illegal lvalue
+177: Lvalue required
+177: Illegal structure ref
+177: Illegal lvalue
+177: Lvalue required
+178: Illegal structure ref
+178: Illegal lvalue
+178: Lvalue required
+179: Illegal structure ref
+179: Illegal lvalue
+179: Lvalue required
+180: .u_count undefined
+180: iget undefined
+180: NINODE undefined
+180: .b_addr undefined
+180: .i_flag undefined
+180: .i_mode undefined
+180: DIRSIZ undefined
+180: .u_base undefined
+180: .u_name undefined
+180: IMOUNT undefined
+180: .u_dbuf undefined
+180: NMOUNT undefined
+180: .u_dent undefined
+180: .u_pdir undefined
+180: NULL undefined
+180: u undefined
+180: dev undefined
+180: inode undefined
+180: ROOTINO undefined
+180: mount undefined
+180: .i_dev undefined
+180: .m_dev undefined
+180: ILOCK undefined
+180: PINOD undefined
+180: .i_numbe undefined
+180: .u_ino undefined
+180: IWANT undefined
+180: .m_inodp undefined
+180: .u_segfl undefined
+180: .i_count undefined
+182: iget undefined
+182: NINODE undefined
+182: .b_addr undefined
+182: .i_flag undefined
+182: .i_mode undefined
+182: IMOUNT undefined
+182: NMOUNT undefined
+182: NULL undefined
+182: dev undefined
+182: inode undefined
+182: ROOTINO undefined
+182: mount undefined
+182: .i_dev undefined
+182: .m_dev undefined
+182: ILOCK undefined
+182: PINOD undefined
+182: .i_numbe undefined
+182: IWANT undefined
+182: .m_inodp undefined
+182: .i_count undefined
+main.c:
+2: Expression syntax
+2: External definition syntax
+2: External definition syntax
+16: Unknown keyword
+16: Statement syntax
+17: define undefined
+17: KISA undefined
+17: UISA undefined
+17: UISD undefined
+17: integ undefined
+17: ED undefined
+17: RO undefined
+17: WO undefined
+17: RW undefined
+17: define undefined
+17: KISA undefined
+17: UISA undefined
+17: UISD undefined
+17: integ undefined
+17: ED undefined
+17: RO undefined
+17: WO undefined
+17: RW undefined
+20: define undefined
+20: KISA undefined
+20: UISA undefined
+20: UISD undefined
+20: integ undefined
+20: ED undefined
+20: RO undefined
+20: WO undefined
+20: RW undefined
+20: define undefined
+20: KISA undefined
+20: UISA undefined
+20: UISD undefined
+20: integ undefined
+20: ED undefined
+20: RO undefined
+20: WO undefined
+20: RW undefined
+35: define undefined
+35: KISA undefined
+35: UISA undefined
+35: UISD undefined
+35: integ undefined
+35: ED undefined
+35: RO undefined
+35: WO undefined
+35: RW undefined
+37: define undefined
+37: KISA undefined
+37: UISA undefined
+37: UISD undefined
+37: integ undefined
+37: ED undefined
+37: RO undefined
+37: WO undefined
+37: RW undefined
+62: Illegal structure ref
+63: Illegal structure ref
+64: Illegal structure ref
+65: Illegal structure ref
+65: Illegal conversion
+66: Illegal structure ref
+66: Illegal lvalue
+66: Lvalue required
+73: Illegal structure ref
+77: Lvalue required
+78: Illegal structure ref
+78: Illegal conversion
+79: Illegal structure ref
+79: Illegal lvalue
+79: Lvalue required
+80: Illegal structure ref
+80: Illegal lvalue
+80: Lvalue required
+80: Illegal structure ref
+80: Illegal conversion
+90: Illegal structure ref
+90: Illegal lvalue
+90: Lvalue required
+90: Illegal indirection
+91: Illegal structure ref
+91: Illegal lvalue
+91: Lvalue required
+91: Illegal indirection
+98: USIZE undefined
+98: SWPLO undefined
+98: .u_procp undefined
+98: define undefined
+98: LKS undefined
+98: proc undefined
+98: .i_flag undefined
+98: .p_flag undefined
+98: .p_addr undefined
+98: .u_cdir undefined
+98: .u_uisa undefined
+98: .u_uisd undefined
+98: KISA undefined
+98: .p_size undefined
+98: .p_stat undefined
+98: UISA undefined
+98: UISD undefined
+98: u undefined
+98: SRUN undefined
+98: integ undefined
+98: ED undefined
+98: SSYS undefined
+98: coremap undefined
+98: ROOTDEV undefined
+98: ROOTINO undefined
+98: RO undefined
+98: swapmap undefined
+98: WO undefined
+98: RW undefined
+98: ILOCK undefined
+98: SLOAD undefined
+98: rootdir undefined
+98: .integ undefined
+98: NSWAP undefined
+104: Illegal structure ref
+104: Illegal lvalue
+104: Lvalue required
+104: Illegal structure ref
+105: Illegal structure ref
+105: Illegal lvalue
+105: Lvalue required
+105: Illegal indirection
+109: Illegal structure ref
+109: Illegal lvalue
+109: Lvalue required
+109: Illegal structure ref
+110: Illegal structure ref
+110: Illegal conversion
+111: Illegal structure ref
+111: Illegal lvalue
+111: Lvalue required
+111: Illegal indirection
+118: .u_procp undefined
+118: .p_textp undefined
+118: define undefined
+118: .p_addr undefined
+118: .u_uisa undefined
+118: .u_uisd undefined
+118: KISA undefined
+118: UISA undefined
+118: UISD undefined
+118: NULL undefined
+118: u undefined
+118: integ undefined
+118: ED undefined
+118: RO undefined
+118: WO undefined
+118: RW undefined
+118: .x_caddr undefined
+125: Illegal structure ref
+125: Illegal lvalue
+125: Lvalue required
+129: Illegal structure ref
+129: Illegal lvalue
+129: Lvalue required
+129: Illegal indirection
+130: Illegal structure ref
+130: Illegal lvalue
+130: Lvalue required
+130: Illegal indirection
+154: Illegal structure ref
+154: Illegal lvalue
+154: Lvalue required
+154: Illegal indirection
+166: Illegal conversion
+171: USIZE undefined
+171: .u_error undefined
+171: define undefined
+171: ENOMEM undefined
+171: MAXMEM undefined
+171: .u_uisa undefined
+171: .u_uisd undefined
+171: KISA undefined
+171: UISA undefined
+171: UISD undefined
+171: u undefined
+171: integ undefined
+171: ED undefined
+171: RO undefined
+171: WO undefined
+171: RW undefined
+177: define undefined
+177: KISA undefined
+177: UISA undefined
+177: UISD undefined
+177: integ undefined
+177: ED undefined
+177: RO undefined
+177: WO undefined
+177: RW undefined
+179: define undefined
+179: KISA undefined
+179: UISA undefined
+179: UISD undefined
+179: integ undefined
+179: ED undefined
+179: RO undefined
+179: WO undefined
+179: RW undefined
+malloc.c:
+nami.c:
+2: Expression syntax
+2: External definition syntax
+2: External definition syntax
+8: flag undefined
+8: func undefined
+8: namei undefined
+9: func undefined
+9: namei undefined
+22: External definition syntax
+23: Unknown keyword
+23: Statement syntax
+24: Unknown keyword
+24: Statement syntax
+25: Unknown keyword
+25: Statement syntax
+32: Call of non-function
+32: Illegal indirection
+32: Lvalue required
+33: Lvalue required
+34: Illegal structure ref
+34: Illegal lvalue
+34: Lvalue required
+34: Lvalue required
+35: Illegal structure ref
+35: Illegal structure ref
+37: Call of non-function
+37: Illegal indirection
+37: Lvalue required
+45: Illegal structure ref
+45: Illegal lvalue
+45: Lvalue required
+56: Illegal structure ref
+56: Illegal conversion
+57: Illegal structure ref
+57: Illegal lvalue
+57: Lvalue required
+69: Lvalue required
+69: Illegal structure ref
+69: Illegal lvalue
+69: Lvalue required
+69: Lvalue required
+71: Illegal structure ref
+71: Illegal lvalue
+71: Lvalue required
+72: Call of non-function
+72: Illegal indirection
+72: Lvalue required
+75: Illegal structure ref
+75: Illegal lvalue
+75: Lvalue required
+75: Lvalue required
+77: Call of non-function
+77: Illegal indirection
+77: Lvalue required
+78: Illegal structure ref
+78: Illegal lvalue
+78: Lvalue required
+85: Illegal structure ref
+85: Illegal lvalue
+85: Lvalue required
+85: Illegal indirection
+86: Illegal structure ref
+86: Illegal lvalue
+86: Lvalue required
+86: Illegal indirection
+87: Illegal structure ref
+87: Illegal lvalue
+87: Lvalue required
+88: Lvalue required
+89: Illegal structure ref
+89: Illegal lvalue
+89: Lvalue required
+89: Illegal structure ref
+90: Illegal structure ref
+90: Illegal lvalue
+90: Lvalue required
+90: Illegal indirection
+91: Lvalue required
+94: Illegal structure ref
+94: Illegal lvalue
+94: Lvalue required
+94: Illegal indirection
+94: Lvalue required
+95: Illegal structure ref
+95: Illegal lvalue
+95: Lvalue required
+101: Illegal structure ref
+101: Illegal lvalue
+101: Lvalue required
+103: Illegal structure ref
+103: Illegal lvalue
+103: Lvalue required
+103: Illegal indirection
+104: Illegal structure ref
+104: Illegal conversion
+107: Illegal structure ref
+107: Illegal lvalue
+107: Lvalue required
+113: Illegal structure ref
+114: Illegal structure ref
+114: Illegal lvalue
+114: Lvalue required
+114: Illegal indirection
+114: Lvalue required
+116: Lvalue required
+116: Lvalue required
+117: Illegal structure ref
+117: Illegal lvalue
+117: Lvalue required
+117: Illegal structure ref
+117: Illegal conversion
+117: Illegal indirection
+118: Illegal structure ref
+118: Lvalue required
+118: Illegal conversion
+118: Illegal indirection
+119: Illegal structure ref
+119: Illegal lvalue
+119: Lvalue required
+119: Illegal indirection
+119: Illegal conversion
+120: Illegal structure ref
+120: Illegal lvalue
+120: Lvalue required
+121: Illegal structure ref
+121: Illegal lvalue
+121: Lvalue required
+121: Illegal structure ref
+123: Illegal structure ref
+123: Illegal lvalue
+123: Lvalue required
+123: Illegal indirection
+123: Lvalue required
+126: Lvalue required
+126: Lvalue required
+127: Illegal structure ref
+127: Illegal lvalue
+127: Lvalue required
+127: Illegal structure ref
+127: Illegal lvalue
+127: Lvalue required
+127: Illegal structure ref
+127: Illegal conversion
+127: Illegal indirection
+136: Illegal structure ref
+136: Lvalue required
+138: Illegal structure ref
+138: Illegal lvalue
+138: Lvalue required
+138: Illegal structure ref
+138: Lvalue required
+146: dp undefined
+146: bp undefined
+146: eo undefined
+146: .u_error undefined
+146: .u_count undefined
+146: func undefined
+146: .b_addr undefined
+146: .i_flag undefined
+146: ENOENT undefined
+146: .i_mode undefined
+146: IWRITE undefined
+146: DIRSIZ undefined
+146: .u_dbuf undefined
+146: .u_cdir undefined
+146: .u_name undefined
+146: .u_dent undefined
+146: .u_pdir undefined
+146: c undefined
+146: IFMT undefined
+146: i undefined
+146: j undefined
+146: IUPD undefined
+146: NULL undefined
+146: u undefined
+146: namei undefined
+146: inode undefined
+146: ENOTDIR undefined
+146: .i_size1 undefined
+146: .i_dev undefined
+146: IFDIR undefined
+146: IEXEC undefined
+146: rootdir undefined
+146: .i_numbe undefined
+146: .u_ino undefined
+146: .u_segfl undefined
+146: .u_offse undefined
+151: Illegal structure ref
+151: Illegal lvalue
+151: Lvalue required
+151: Illegal indirection
+152: dp undefined
+152: bp undefined
+152: eo undefined
+152: .u_error undefined
+152: .u_count undefined
+152: func undefined
+152: .b_addr undefined
+152: .i_flag undefined
+152: ENOENT undefined
+152: .i_mode undefined
+152: IWRITE undefined
+152: DIRSIZ undefined
+152: .u_dbuf undefined
+152: .u_cdir undefined
+152: .u_name undefined
+152: .u_dent undefined
+152: .u_pdir undefined
+152: .u_dirp undefined
+152: c undefined
+152: IFMT undefined
+152: i undefined
+152: j undefined
+152: IUPD undefined
+152: NULL undefined
+152: u undefined
+152: namei undefined
+152: inode undefined
+152: ENOTDIR undefined
+152: .i_size1 undefined
+152: .i_dev undefined
+152: IFDIR undefined
+152: IEXEC undefined
+152: rootdir undefined
+152: .i_numbe undefined
+152: .u_ino undefined
+152: .u_segfl undefined
+152: .u_offse undefined
+158: Illegal structure ref
+158: Illegal lvalue
+158: Lvalue required
+160: Illegal structure ref
+160: Illegal lvalue
+160: Lvalue required
+162: dp undefined
+162: bp undefined
+162: eo undefined
+162: .u_error undefined
+162: .u_count undefined
+162: func undefined
+162: EFAULT undefined
+162: .b_addr undefined
+162: .i_flag undefined
+162: ENOENT undefined
+162: .i_mode undefined
+162: IWRITE undefined
+162: DIRSIZ undefined
+162: .u_dbuf undefined
+162: .u_cdir undefined
+162: .u_name undefined
+162: .u_dent undefined
+162: .u_pdir undefined
+162: .u_dirp undefined
+162: IFMT undefined
+162: i undefined
+162: j undefined
+162: IUPD undefined
+162: NULL undefined
+162: u undefined
+162: namei undefined
+162: inode undefined
+162: ENOTDIR undefined
+162: .i_size1 undefined
+162: .i_dev undefined
+162: IFDIR undefined
+162: IEXEC undefined
+162: rootdir undefined
+162: .i_numbe undefined
+162: .u_ino undefined
+162: .u_segfl undefined
+162: .u_offse undefined
+164: dp undefined
+164: bp undefined
+164: eo undefined
+164: .u_error undefined
+164: .u_count undefined
+164: func undefined
+164: .b_addr undefined
+164: .i_flag undefined
+164: ENOENT undefined
+164: .i_mode undefined
+164: IWRITE undefined
+164: DIRSIZ undefined
+164: .u_dbuf undefined
+164: .u_cdir undefined
+164: .u_name undefined
+164: .u_dent undefined
+164: .u_pdir undefined
+164: IFMT undefined
+164: i undefined
+164: j undefined
+164: IUPD undefined
+164: NULL undefined
+164: u undefined
+164: namei undefined
+164: inode undefined
+164: ENOTDIR undefined
+164: .i_size1 undefined
+164: .i_dev undefined
+164: IFDIR undefined
+164: IEXEC undefined
+164: rootdir undefined
+164: .i_numbe undefined
+164: .u_ino undefined
+164: .u_segfl undefined
+164: .u_offse undefined
+prf.c:
+1: Expression syntax
+3: External definition syntax
+4: Unknown keyword
+4: Statement syntax
+5: Unknown keyword
+5: Statement syntax
+6: Unknown keyword
+6: Statement syntax
+7: Unknown keyword
+7: Statement syntax
+8: Unknown keyword
+8: Statement syntax
+9: rbr undefined
+9: xbr undefined
+9: csw undefined
+9: rsr undefined
+9: xsr undefined
+67: Illegal structure ref
+69: Illegal structure ref
+70: Illegal structure ref
+71: Illegal structure ref
+79: Illegal structure ref
+80: .xbr undefined
+80: .xsr undefined
+prproc.c:
+2: Expression syntax
+2: External definition syntax
+2: External definition syntax
+6: Unknown keyword
+6: Statement syntax
+7: Unknown keyword
+7: Statement syntax
+9: Lvalue required
+9: Lvalue required
+10: Illegal conversion
+10: Illegal indirection
+10: Lvalue required
+11: Illegal structure ref
+14: Illegal structure ref
+15: Illegal structure ref
+16: Illegal structure ref
+17: Illegal structure ref
+18: Illegal structure ref
+19: Illegal structure ref
+20: Illegal structure ref
+21: Illegal structure ref
+24: .p_textp undefined
+24: proc undefined
+24: prproc undefined
+24: .p_flag undefined
+24: .p_addr undefined
+24: .p_ppid undefined
+24: .p_size undefined
+24: .p_stat undefined
+24: i undefined
+24: p undefined
+24: NULL undefined
+24: .p_pid undefined
+24: .p_wchan undefined
+24: NPROC undefined
+26: .p_textp undefined
+26: proc undefined
+26: prproc undefined
+26: .p_flag undefined
+26: .p_addr undefined
+26: .p_ppid undefined
+26: .p_size undefined
+26: .p_stat undefined
+26: i undefined
+26: p undefined
+26: NULL undefined
+26: .p_pid undefined
+26: .p_wchan undefined
+26: NPROC undefined
+rdwri.c:
+2: Expression syntax
+2: External definition syntax
+2: External definition syntax
+8: ip undefined
+8: readi undefined
+8: inode undefined
+9: External definition syntax
+10: Unknown keyword
+10: Statement syntax
+11: Unknown keyword
+11: Statement syntax
+12: Unknown keyword
+12: Statement syntax
+13: Unknown keyword
+13: Statement syntax
+15: Illegal structure ref
+15: Illegal lvalue
+15: Lvalue required
+16: Break/continue error
+17: Illegal structure ref
+17: Illegal conversion
+18: Illegal structure ref
+18: Illegal conversion
+19: Illegal structure ref
+19: Illegal structure ref
+19: Illegal conversion
+19: Illegal indirection
+19: Illegal structure ref
+19: Illegal structure ref
+19: Call of non-function
+19: Illegal indirection
+24: Illegal structure ref
+24: Illegal lvalue
+24: Lvalue required
+24: Illegal indirection
+24: Illegal structure ref
+24: Illegal lvalue
+24: Lvalue required
+24: Illegal indirection
+24: Lvalue required
+25: Illegal structure ref
+25: Illegal lvalue
+25: Lvalue required
+25: Illegal indirection
+25: Illegal structure ref
+25: Illegal lvalue
+25: Lvalue required
+25: Illegal indirection
+25: Lvalue required
+26: Illegal structure ref
+26: Illegal lvalue
+26: Lvalue required
+26: Lvalue required
+27: Illegal structure ref
+27: Illegal conversion
+28: Illegal structure ref
+28: Illegal structure ref
+29: Illegal structure ref
+29: Illegal lvalue
+29: Lvalue required
+29: Illegal indirection
+29: Illegal structure ref
+29: Illegal lvalue
+29: Lvalue required
+29: Illegal indirection
+29: Lvalue required
+31: Break/continue error
+32: Lvalue required
+33: Lvalue required
+34: Break/continue error
+35: Illegal structure ref
+35: Lvalue required
+37: Illegal structure ref
+37: Lvalue required
+38: Lvalue required
+39: Illegal structure ref
+39: Illegal conversion
+39: Lvalue required
+40: Illegal structure ref
+40: Illegal lvalue
+40: Lvalue required
+40: Illegal structure ref
+40: Illegal lvalue
+40: Lvalue required
+41: Illegal structure ref
+41: Illegal lvalue
+41: Lvalue required
+42: Illegal structure ref
+42: Illegal lvalue
+42: Lvalue required
+43: Illegal structure ref
+43: Illegal lvalue
+43: Lvalue required
+43: Illegal conversion
+46: Illegal structure ref
+46: Illegal lvalue
+46: Lvalue required
+47: Lvalue required
+47: Lvalue required
+48: Illegal structure ref
+48: Illegal lvalue
+48: Lvalue required
+48: Illegal indirection
+49: Illegal structure ref
+49: Illegal lvalue
+49: Lvalue required
+50: Lvalue required
+54: Illegal structure ref
+54: Illegal lvalue
+54: Lvalue required
+55: Illegal structure ref
+55: Illegal lvalue
+55: Lvalue required
+55: Illegal conversion
+57: Lvalue required
+57: Lvalue required
+58: Lvalue required
+61: Illegal structure ref
+61: Illegal lvalue
+61: Lvalue required
+61: Illegal structure ref
+61: Illegal lvalue
+61: Lvalue required
+63: bn undefined
+63: bp undefined
+63: dn undefined
+63: cp undefined
+63: .u_count undefined
+63: ip undefined
+63: .u_error undefined
+63: on undefined
+63: EFAULT undefined
+63: .b_addr undefined
+63: cdevsw undefined
+63: .d_read undefined
+63: .i_flag undefined
+63: .i_addr undefined
+63: .i_mode undefined
+63: .u_base undefined
+63: IACC undefined
+63: IFMT undefined
+63: i undefined
+63: n undefined
+63: readi undefined
+63: u undefined
+63: inode undefined
+63: .i_size0 undefined
+63: .i_size1 undefined
+63: IFBLK undefined
+63: IFCHR undefined
+63: .i_dev undefined
+63: .d_major undefined
+63: .u_segfl undefined
+63: .u_offse undefined
+73: Undefined structure: .inode
+73: Illegal structure ref
+73: Illegal lvalue
+73: Lvalue required
+75: Illegal structure ref
+75: Illegal conversion
+76: Illegal structure ref
+76: Illegal conversion
+77: Illegal structure ref
+77: Illegal structure ref
+77: Illegal conversion
+77: Illegal indirection
+77: Illegal structure ref
+77: Illegal structure ref
+77: Call of non-function
+77: Illegal indirection
+81: Redefinition
+82: Illegal structure ref
+82: Illegal lvalue
+82: Lvalue required
+82: Illegal indirection
+82: Illegal structure ref
+82: Illegal lvalue
+82: Lvalue required
+82: Illegal indirection
+83: Illegal structure ref
+83: Illegal lvalue
+83: Lvalue required
+83: Illegal indirection
+83: Illegal structure ref
+83: Illegal lvalue
+83: Lvalue required
+83: Illegal indirection
+84: Illegal structure ref
+84: Illegal lvalue
+84: Lvalue required
+85: Illegal structure ref
+85: Illegal conversion
+88: Illegal structure ref
+90: Illegal structure ref
+94: Illegal structure ref
+95: Illegal structure ref
+95: Illegal lvalue
+95: Lvalue required
+95: Illegal structure ref
+95: Illegal lvalue
+95: Lvalue required
+96: Illegal structure ref
+96: Illegal lvalue
+96: Lvalue required
+97: Illegal structure ref
+97: Illegal lvalue
+97: Lvalue required
+98: Illegal structure ref
+98: Illegal lvalue
+98: Lvalue required
+101: Illegal structure ref
+101: Illegal lvalue
+101: Lvalue required
+103: Illegal structure ref
+103: Illegal lvalue
+103: Lvalue required
+103: Illegal indirection
+105: Illegal structure ref
+105: Illegal lvalue
+105: Lvalue required
+108: Redefinition
+109: Illegal structure ref
+109: Illegal lvalue
+109: Lvalue required
+110: Illegal structure ref
+110: Illegal lvalue
+110: Lvalue required
+115: Illegal structure ref
+115: Illegal lvalue
+115: Lvalue required
+115: Illegal indirection
+115: Illegal structure ref
+115: Illegal lvalue
+115: Lvalue required
+115: Illegal indirection
+118: Illegal structure ref
+118: Illegal structure ref
+119: Illegal structure ref
+119: Illegal lvalue
+119: Lvalue required
+119: Illegal indirection
+119: Illegal structure ref
+119: Illegal lvalue
+119: Lvalue required
+119: Illegal indirection
+120: Illegal structure ref
+120: Illegal conversion
+121: Illegal structure ref
+121: Illegal structure ref
+121: Illegal lvalue
+121: Lvalue required
+121: Illegal indirection
+122: Illegal structure ref
+122: Illegal structure ref
+122: Illegal lvalue
+122: Lvalue required
+122: Illegal indirection
+124: Illegal structure ref
+124: Illegal conversion
+125: Illegal structure ref
+125: Illegal lvalue
+125: Lvalue required
+125: Illegal structure ref
+125: Illegal lvalue
+125: Lvalue required
+127: .u_count undefined
+127: .u_error undefined
+127: EFAULT undefined
+127: .b_addr undefined
+127: cdevsw undefined
+127: .d_read undefined
+127: .i_flag undefined
+127: .i_addr undefined
+127: .i_mode undefined
+127: .u_base undefined
+127: IACC undefined
+127: IFMT undefined
+127: IUPD undefined
+127: readi undefined
+127: u undefined
+127: inode undefined
+127: .i_size0 undefined
+127: .i_size1 undefined
+127: IFBLK undefined
+127: IFCHR undefined
+127: .i_dev undefined
+127: .d_major undefined
+127: .u_segfl undefined
+127: .u_offse undefined
+127: .d_write undefined
+136: .u_count undefined
+136: .u_error undefined
+136: EFAULT undefined
+136: .b_addr undefined
+136: cdevsw undefined
+136: .d_read undefined
+136: .i_flag undefined
+136: .i_addr undefined
+136: .i_mode undefined
+136: .u_base undefined
+136: IACC undefined
+136: IFMT undefined
+136: readi undefined
+136: u undefined
+136: inode undefined
+136: .i_size0 undefined
+136: .i_size1 undefined
+136: IFBLK undefined
+136: IFCHR undefined
+136: .i_dev undefined
+136: .d_major undefined
+136: .u_segfl undefined
+136: .u_offse undefined
+145: .u_count undefined
+145: .u_error undefined
+145: EFAULT undefined
+145: .b_addr undefined
+145: cdevsw undefined
+145: .d_read undefined
+145: .i_flag undefined
+145: .i_addr undefined
+145: .i_mode undefined
+145: .u_base undefined
+145: IACC undefined
+145: IFMT undefined
+145: readi undefined
+145: u undefined
+145: inode undefined
+145: .i_size0 undefined
+145: .i_size1 undefined
+145: IFBLK undefined
+145: IFCHR undefined
+145: .i_dev undefined
+145: .d_major undefined
+145: .u_segfl undefined
+145: .u_offse undefined
+147: .u_count undefined
+147: .u_error undefined
+147: EFAULT undefined
+147: .b_addr undefined
+147: cdevsw undefined
+147: .d_read undefined
+147: .i_flag undefined
+147: .i_addr undefined
+147: .i_mode undefined
+147: .u_base undefined
+147: IACC undefined
+147: IFMT undefined
+147: readi undefined
+147: u undefined
+147: inode undefined
+147: .i_size0 undefined
+147: .i_size1 undefined
+147: IFBLK undefined
+147: IFCHR undefined
+147: .i_dev undefined
+147: .d_major undefined
+147: .u_segfl undefined
+147: .u_offse undefined
+sig.c:
+2: Expression syntax
+2: External definition syntax
+2: External definition syntax
+10: Unknown keyword
+10: Statement syntax
+11: Unknown keyword
+11: Statement syntax
+13: Lvalue required
+14: Lvalue required
+14: Lvalue required
+15: Illegal structure ref
+17: Lvalue required
+19: tp undefined
+19: proc undefined
+19: signal undefined
+19: i undefined
+19: p undefined
+19: .p_ttyp undefined
+19: sig undefined
+19: NPROC undefined
+27: Illegal structure ref
+28: Illegal structure ref
+29: Illegal structure ref
+30: Illegal structure ref
+32: Lvalue required
+36: tp undefined
+36: proc undefined
+36: signal undefined
+36: runout undefined
+36: .p_stat undefined
+36: i undefined
+36: .p_ttyp undefined
+36: SRUN undefined
+36: .p_sig undefined
+36: .p_wchan undefined
+36: NPROC undefined
+36: SWAIT undefined
+42: Illegal structure ref
+42: Illegal lvalue
+42: Lvalue required
+42: Illegal structure ref
+43: Illegal structure ref
+43: Illegal lvalue
+43: Lvalue required
+43: Illegal indirection
+46: .u_procp undefined
+46: tp undefined
+46: proc undefined
+46: signal undefined
+46: i undefined
+46: .p_ttyp undefined
+46: u undefined
+46: .p_sig undefined
+46: NPROC undefined
+46: .u_signa undefined
+50: p redeclared
+53: Illegal structure ref
+53: Illegal lvalue
+53: Lvalue required
+54: Illegal structure ref
+55: Illegal structure ref
+56: Illegal structure ref
+56: Illegal lvalue
+56: Lvalue required
+56: Illegal indirection
+57: Illegal structure ref
+57: Illegal lvalue
+57: Lvalue required
+58: Illegal structure ref
+58: Illegal lvalue
+58: Lvalue required
+58: Illegal indirection
+59: Illegal structure ref
+59: Illegal lvalue
+59: Lvalue required
+59: Illegal structure ref
+59: Illegal lvalue
+59: Lvalue required
+60: Illegal structure ref
+60: Illegal lvalue
+60: Lvalue required
+60: Illegal structure ref
+60: Illegal lvalue
+60: Lvalue required
+61: Illegal structure ref
+61: Illegal lvalue
+61: Lvalue required
+61: Illegal structure ref
+61: Illegal lvalue
+61: Lvalue required
+62: Illegal structure ref
+62: Illegal lvalue
+62: Lvalue required
+62: Illegal structure ref
+62: Illegal lvalue
+62: Lvalue required
+63: Illegal structure ref
+63: Illegal lvalue
+63: Lvalue required
+68: Constant required
+69: Constant required
+70: Constant required
+71: Constant required
+72: Constant required
+73: Constant required
+74: Constant required
+75: Constant required
+76: Constant required
+80: Illegal structure ref
+80: Illegal lvalue
+80: Lvalue required
+80: Illegal indirection
+80: Illegal structure ref
+80: Illegal lvalue
+80: Lvalue required
+82: .u_procp undefined
+82: .u_error undefined
+82: tp undefined
+82: proc undefined
+82: signal undefined
+82: RPS undefined
+82: i undefined
+82: .p_ttyp undefined
+82: u undefined
+82: .u_ar0 undefined
+82: R0 undefined
+82: R6 undefined
+82: R7 undefined
+82: .u_arg undefined
+82: .p_sig undefined
+82: NPROC undefined
+82: .u_signa undefined
+89: Illegal structure ref
+89: Illegal lvalue
+89: Lvalue required
+90: Illegal structure ref
+90: Illegal lvalue
+90: Lvalue required
+93: Illegal structure ref
+93: Illegal lvalue
+93: Lvalue required
+99: Illegal structure ref
+99: Illegal lvalue
+99: Lvalue required
+99: Illegal indirection
+100: Illegal structure ref
+100: Illegal lvalue
+100: Lvalue required
+100: Illegal indirection
+101: Illegal structure ref
+101: Illegal lvalue
+101: Lvalue required
+102: Illegal structure ref
+102: Illegal lvalue
+102: Lvalue required
+103: Illegal structure ref
+103: Illegal lvalue
+103: Lvalue required
+105: Illegal structure ref
+105: Illegal lvalue
+105: Lvalue required
+105: Illegal structure ref
+107: Illegal structure ref
+107: Illegal lvalue
+107: Lvalue required
+108: Illegal structure ref
+108: Illegal lvalue
+108: Lvalue required
+109: Illegal structure ref
+109: Illegal lvalue
+109: Lvalue required
+113: Illegal structure ref
+113: Illegal lvalue
+113: Lvalue required
+114: USIZE undefined
+114: .u_procp undefined
+114: .u_error undefined
+114: .u_count undefined
+114: tp undefined
+114: proc undefined
+114: signal undefined
+114: IWRITE undefined
+114: .u_base undefined
+114: .u_dirp undefined
+114: .p_size undefined
+114: i undefined
+114: NULL undefined
+114: .p_ttyp undefined
+114: u undefined
+114: NPROC undefined
+114: .u_segfl undefined
+114: .u_offse undefined
+116: tp undefined
+116: proc undefined
+116: signal undefined
+116: i undefined
+116: .p_ttyp undefined
+116: NPROC undefined
+slp.c:
+2: Expression syntax
+2: External definition syntax
+2: External definition syntax
+12: Unknown keyword
+12: Statement syntax
+13: define undefined
+13: integ undefined
+13: PS undefined
+13: define undefined
+13: integ undefined
+13: PS undefined
+20: Illegal structure ref
+24: Illegal structure ref
+24: Illegal lvalue
+24: Lvalue required
+25: Illegal structure ref
+26: Illegal structure ref
+27: Illegal structure ref
+30: Lvalue required
+37: Illegal structure ref
+37: Illegal lvalue
+37: Lvalue required
+37: Illegal indirection
+37: Illegal structure ref
+37: Illegal lvalue
+37: Lvalue required
+37: Illegal indirection
+38: Illegal structure ref
+38: Illegal lvalue
+38: Lvalue required
+38: Illegal indirection
+38: Illegal structure ref
+38: Illegal lvalue
+38: Lvalue required
+38: Illegal indirection
+39: Illegal structure ref
+39: Illegal lvalue
+39: Lvalue required
+39: Illegal structure ref
+43: Illegal structure ref
+43: Illegal lvalue
+43: Lvalue required
+44: Illegal structure ref
+45: Illegal structure ref
+46: Illegal structure ref
+50: Illegal structure ref
+51: .u_procp undefined
+51: define undefined
+51: SSLEEP undefined
+51: .p_addr undefined
+51: .p_stat undefined
+51: .u_qsav undefined
+51: .u_rsav undefined
+51: u undefined
+51: integ undefined
+51: runin undefined
+51: PS undefined
+51: .integ undefined
+51: .p_wchan undefined
+51: .p_pri undefined
+51: SWAIT undefined
+59: Undefined structure: .proc
+63: Illegal structure ref
+64: Illegal structure ref
+64: Illegal conversion
+65: Lvalue required
+68: Illegal structure ref
+69: Illegal structure ref
+70: Lvalue required
+78: define undefined
+78: proc undefined
+78: .p_flag undefined
+78: runrun undefined
+78: runout undefined
+78: .p_stat undefined
+78: SRUN undefined
+78: integ undefined
+78: PS undefined
+78: SLOAD undefined
+78: .p_wchan undefined
+78: NPROC undefined
+80: Expression syntax
+82: External definition syntax
+88: Statement syntax
+90: Statement syntax
+91: Unknown keyword
+91: Statement syntax
+92: Unknown keyword
+92: Statement syntax
+93: Unknown keyword
+93: Statement syntax
+95: Lvalue required
+95: Lvalue required
+103: Lvalue required
+104: Lvalue required
+104: Lvalue required
+105: Lvalue required
+106: Illegal conversion
+106: Illegal indirection
+107: Lvalue required
+108: Illegal structure ref
+108: Illegal structure ref
+108: Illegal conversion
+109: Lvalue required
+113: Lvalue required
+123: Lvalue required
+124: Illegal structure ref
+124: Lvalue required
+125: Illegal structure ref
+125: Lvalue required
+126: Illegal structure ref
+127: Illegal structure ref
+127: Lvalue required
+127: Illegal conversion
+128: Lvalue required
+137: Lvalue required
+138: Lvalue required
+138: Lvalue required
+139: Lvalue required
+140: Illegal conversion
+140: Illegal indirection
+141: Lvalue required
+142: Illegal structure ref
+142: Illegal conversion
+142: Illegal conversion
+143: Illegal structure ref
+144: Illegal structure ref
+148: Lvalue required
+148: Lvalue required
+149: Lvalue required
+150: Illegal conversion
+150: Illegal indirection
+151: Lvalue required
+152: Illegal structure ref
+152: Illegal conversion
+152: Illegal conversion
+153: Illegal structure ref
+154: Illegal structure ref
+154: Illegal structure ref
+155: Illegal structure ref
+156: Illegal structure ref
+157: Illegal structure ref
+161: Lvalue required
+171: Illegal structure ref
+171: Illegal conversion
+172: Lvalue required
+181: Illegal structure ref
+181: Lvalue required
+182: Illegal structure ref
+183: Illegal structure ref
+183: Illegal structure ref
+185: Illegal structure ref
+185: Lvalue required
+186: Illegal structure ref
+187: Illegal structure ref
+187: Lvalue required
+187: Illegal conversion
+189: Illegal structure ref
+191: Lvalue required
+192: Illegal structure ref
+192: Illegal structure ref
+194: Lvalue required
+195: Illegal structure ref
+195: Illegal structure ref
+196: Lvalue required
+197: Illegal structure ref
+198: Illegal structure ref
+198: Illegal conversion
+199: Illegal structure ref
+199: Illegal structure ref
+199: Illegal conversion
+199: Illegal indirection
+207: Statement syntax
+208: Unknown keyword
+208: Statement syntax
+209: Unknown keyword
+209: Statement syntax
+210: Unknown keyword
+210: Statement syntax
+213: Lvalue required
+214: Illegal structure ref
+214: Illegal lvalue
+214: Lvalue required
+215: Illegal structure ref
+217: Redefinition
+218: Lvalue required
+219: Lvalue required
+220: Lvalue required
+221: Lvalue required
+221: Lvalue required
+222: Lvalue required
+223: Illegal conversion
+223: Illegal indirection
+224: Lvalue required
+225: Illegal structure ref
+225: Illegal structure ref
+225: Illegal conversion
+226: Illegal structure ref
+227: Lvalue required
+228: Illegal structure ref
+228: Lvalue required
+233: Lvalue required
+237: Illegal structure ref
+239: Illegal structure ref
+239: Illegal conversion
+240: Illegal structure ref
+240: Illegal conversion
+241: Illegal structure ref
+241: Illegal lvalue
+241: Lvalue required
+241: Illegal indirection
+241: Illegal structure ref
+241: Illegal lvalue
+241: Lvalue required
+241: Illegal indirection
+242: Illegal structure ref
+242: Illegal lvalue
+242: Lvalue required
+242: Illegal indirection
+242: Illegal structure ref
+242: Illegal lvalue
+242: Lvalue required
+242: Illegal indirection
+243: Illegal structure ref
+249: Statement syntax
+250: Unknown keyword
+250: Statement syntax
+251: Unknown keyword
+251: Statement syntax
+252: Unknown keyword
+252: Statement syntax
+253: Unknown keyword
+253: Statement syntax
+255: Lvalue required
+255: Illegal conversion
+255: Illegal indirection
+255: Lvalue required
+256: Illegal structure ref
+260: Redefinition
+265: Lvalue required
+266: Illegal structure ref
+266: Illegal lvalue
+266: Lvalue required
+266: Lvalue required
+267: Lvalue required
+268: Illegal structure ref
+269: Illegal structure ref
+270: Illegal structure ref
+270: Illegal structure ref
+271: Illegal structure ref
+271: Illegal structure ref
+272: Illegal structure ref
+272: Lvalue required
+273: Illegal structure ref
+273: Illegal structure ref
+274: Illegal structure ref
+275: Illegal structure ref
+282: Illegal structure ref
+282: Illegal lvalue
+282: Lvalue required
+282: Illegal indirection
+282: Lvalue required
+282: Illegal structure ref
+282: Illegal lvalue
+282: Lvalue required
+283: Lvalue required
+283: Lvalue required
+284: Illegal structure ref
+285: Illegal structure ref
+285: Lvalue required
+286: Illegal structure ref
+287: Illegal structure ref
+289: Illegal structure ref
+289: Illegal lvalue
+289: Lvalue required
+289: Illegal structure ref
+296: Illegal structure ref
+296: Illegal lvalue
+296: Lvalue required
+297: Illegal structure ref
+297: Illegal lvalue
+297: Lvalue required
+298: Lvalue required
+299: Illegal structure ref
+299: Lvalue required
+300: Illegal structure ref
+300: Lvalue required
+301: Illegal structure ref
+302: Lvalue required
+304: Illegal structure ref
+305: Illegal structure ref
+306: Illegal structure ref
+306: Illegal lvalue
+306: Lvalue required
+308: Illegal structure ref
+308: Illegal conversion
+309: Illegal structure ref
+311: Illegal structure ref
+312: Lvalue required
+313: Lvalue required
+313: Lvalue required
+315: Illegal structure ref
+315: Illegal lvalue
+315: Lvalue required
+320: Statement syntax
+321: Unknown keyword
+321: Statement syntax
+322: Unknown keyword
+322: Statement syntax
+324: Illegal structure ref
+324: Illegal lvalue
+324: Lvalue required
+324: Lvalue required
+325: Illegal structure ref
+325: Lvalue required
+326: Illegal structure ref
+327: Illegal structure ref
+327: Lvalue required
+329: Illegal conversion
+332: Illegal structure ref
+332: Illegal lvalue
+332: Lvalue required
+333: Lvalue required
+335: Illegal structure ref
+335: Illegal lvalue
+335: Lvalue required
+337: Illegal structure ref
+337: Illegal conversion
+341: Illegal structure ref
+342: Lvalue required
+342: Lvalue required
+343: Illegal conversion
+343: Lvalue required
+345: Illegal structure ref
+349: Unexpected EOF
+349: Missing '}'
+349: .u_procp undefined
+349: .x_count undefined
+349: .p_textp undefined
+349: rp undefined
+349: mpid undefined
+349: up undefined
+349: proc undefined
+349: B_READ undefined
+349: NOFILE undefined
+349: SSLEEP undefined
+349: .p_flag undefined
+349: .p_addr undefined
+349: .u_cdir undefined
+349: .p_cook undefined
+349: .p_ppid undefined
+349: .p_ndis undefined
+349: runout undefined
+349: .p_size undefined
+349: a undefined
+349: .p_stat undefined
+349: SIDL undefined
+349: .u_rsav undefined
+349: .x_size undefined
+349: i undefined
+349: .u_ssav undefined
+349: n undefined
+349: p undefined
+349: NULL undefined
+349: u undefined
+349: .p_ttyp undefined
+349: SRUN undefined
+349: PSWP undefined
+349: rip undefined
+349: integ undefined
+349: SSYS undefined
+349: coremap undefined
+349: rpp undefined
+349: a1 undefined
+349: a2 undefined
+349: cookies undefined
+349: runin undefined
+349: p1 undefined
+349: p2 undefined
+349: PS undefined
+349: swapmap undefined
+349: .p_pid undefined
+349: SLOAD undefined
+349: .x_daddr undefined
+349: .x_caddr undefined
+349: newsize undefined
+349: SLOCK undefined
+349: .p_pri undefined
+349: .u_ofile undefined
+349: NPROC undefined
+349: SWAIT undefined
+349: .f_count undefined
+349: .x_ccoun undefined
+349: SSWAP undefined
+349: .i_count undefined
+subr.c:
+2: Expression syntax
+2: External definition syntax
+2: External definition syntax
+8: bn undefined
+8: bmap undefined
+8: ip undefined
+8: inode undefined
+9: bmap undefined
+9: ip undefined
+9: inode undefined
+10: External definition syntax
+11: Unknown keyword
+11: Statement syntax
+12: Unknown keyword
+12: Statement syntax
+13: Unknown keyword
+13: Statement syntax
+15: Illegal structure ref
+15: Lvalue required
+18: Illegal structure ref
+18: Illegal lvalue
+18: Lvalue required
+21: Illegal structure ref
+21: Illegal conversion
+34: Lvalue required
+36: Illegal structure ref
+36: Lvalue required
+37: Lvalue required
+37: Lvalue required
+38: Lvalue required
+38: Illegal structure ref
+38: Illegal conversion
+38: Illegal indirection
+39: Illegal structure ref
+39: Illegal conversion
+39: Illegal indirection
+41: Illegal structure ref
+41: Illegal structure ref
+43: Illegal structure ref
+43: Illegal conversion
+46: Illegal structure ref
+46: Lvalue required
+47: Lvalue required
+49: Illegal structure ref
+49: Lvalue required
+50: Illegal structure ref
+51: Illegal structure ref
+51: Illegal conversion
+61: Lvalue required
+62: Illegal structure ref
+62: Illegal conversion
+62: Illegal indirection
+62: Lvalue required
+63: Illegal structure ref
+63: Illegal conversion
+64: Lvalue required
+66: Illegal structure ref
+66: Lvalue required
+67: Illegal structure ref
+67: Illegal conversion
+67: Illegal indirection
+69: Lvalue required
+70: Illegal structure ref
+70: Lvalue required
+71: Lvalue required
+72: Illegal conversion
+72: Illegal indirection
+72: Lvalue required
+72: Lvalue required
+73: Illegal structure ref
+73: Lvalue required
+74: Illegal conversion
+74: Illegal indirection
+80: nb undefined
+80: bp undefined
+80: .u_error undefined
+80: bmap undefined
+80: ip undefined
+80: .b_addr undefined
+80: .i_addr undefined
+80: .i_flag undefined
+80: .i_mode undefined
+80: d undefined
+80: i undefined
+80: IUPD undefined
+80: bap undefined
+80: NULL undefined
+80: u undefined
+80: nbp undefined
+80: inode undefined
+80: EFBIG undefined
+80: .i_dev undefined
+80: ILARG undefined
+80: .b_blkno undefined
+86: Illegal structure ref
+86: Illegal lvalue
+86: Lvalue required
+87: Illegal structure ref
+87: Illegal lvalue
+87: Lvalue required
+87: Illegal indirection
+88: Illegal structure ref
+88: Illegal lvalue
+88: Lvalue required
+89: Illegal structure ref
+89: Illegal lvalue
+89: Lvalue required
+92: Illegal structure ref
+92: Illegal lvalue
+92: Lvalue required
+93: Illegal structure ref
+93: Illegal lvalue
+93: Lvalue required
+93: Illegal indirection
+94: Illegal structure ref
+94: Illegal lvalue
+94: Lvalue required
+94: Illegal indirection
+95: Illegal structure ref
+95: Illegal lvalue
+95: Lvalue required
+96: Illegal structure ref
+96: Illegal lvalue
+96: Lvalue required
+97: nb undefined
+97: bp undefined
+97: .u_error undefined
+97: .u_count undefined
+97: bmap undefined
+97: ip undefined
+97: EFAULT undefined
+97: .b_addr undefined
+97: .i_addr undefined
+97: .i_flag undefined
+97: .i_mode undefined
+97: .u_base undefined
+97: d undefined
+97: i undefined
+97: IUPD undefined
+97: bap undefined
+97: NULL undefined
+97: u undefined
+97: nbp undefined
+97: inode undefined
+97: EFBIG undefined
+97: .i_dev undefined
+97: ILARG undefined
+97: .b_blkno undefined
+97: .u_segfl undefined
+97: .u_offse undefined
+104: Illegal structure ref
+104: Illegal lvalue
+104: Lvalue required
+106: Illegal structure ref
+106: Illegal lvalue
+106: Lvalue required
+107: Illegal structure ref
+107: Illegal lvalue
+107: Lvalue required
+107: Illegal indirection
+108: Illegal structure ref
+108: Illegal lvalue
+108: Lvalue required
+109: Illegal structure ref
+109: Illegal lvalue
+109: Lvalue required
+113: Illegal structure ref
+113: Illegal lvalue
+113: Lvalue required
+114: Illegal structure ref
+114: Illegal lvalue
+114: Lvalue required
+114: Illegal indirection
+115: Illegal structure ref
+115: Illegal lvalue
+115: Lvalue required
+115: Illegal indirection
+116: Illegal structure ref
+116: Illegal lvalue
+116: Lvalue required
+118: nb undefined
+118: bp undefined
+118: .u_error undefined
+118: bmap undefined
+118: ip undefined
+118: .u_count undefined
+118: EFAULT undefined
+118: .b_addr undefined
+118: .i_addr undefined
+118: .i_flag undefined
+118: .i_mode undefined
+118: .u_base undefined
+118: d undefined
+118: i undefined
+118: IUPD undefined
+118: bap undefined
+118: NULL undefined
+118: u undefined
+118: nbp undefined
+118: inode undefined
+118: EFBIG undefined
+118: .i_dev undefined
+118: ILARG undefined
+118: .b_blkno undefined
+118: .u_segfl undefined
+118: .u_offse undefined
+123: Illegal structure ref
+123: Illegal lvalue
+123: Lvalue required
+124: nb undefined
+124: bp undefined
+124: .u_error undefined
+124: bmap undefined
+124: ip undefined
+124: ENODEV undefined
+124: .b_addr undefined
+124: .i_addr undefined
+124: .i_flag undefined
+124: .i_mode undefined
+124: d undefined
+124: i undefined
+124: IUPD undefined
+124: bap undefined
+124: NULL undefined
+124: u undefined
+124: nbp undefined
+124: inode undefined
+124: EFBIG undefined
+124: .i_dev undefined
+124: ILARG undefined
+124: .b_blkno undefined
+128: nb undefined
+128: bp undefined
+128: .u_error undefined
+128: bmap undefined
+128: ip undefined
+128: .b_addr undefined
+128: .i_addr undefined
+128: .i_flag undefined
+128: .i_mode undefined
+128: d undefined
+128: i undefined
+128: IUPD undefined
+128: bap undefined
+128: NULL undefined
+128: u undefined
+128: nbp undefined
+128: inode undefined
+128: EFBIG undefined
+128: .i_dev undefined
+128: ILARG undefined
+128: .b_blkno undefined
+130: nb undefined
+130: bp undefined
+130: .u_error undefined
+130: bmap undefined
+130: ip undefined
+130: .b_addr undefined
+130: .i_addr undefined
+130: .i_flag undefined
+130: .i_mode undefined
+130: d undefined
+130: i undefined
+130: IUPD undefined
+130: bap undefined
+130: NULL undefined
+130: u undefined
+130: nbp undefined
+130: inode undefined
+130: EFBIG undefined
+130: .i_dev undefined
+130: ILARG undefined
+130: .b_blkno undefined
+sys1.c:
+2: Expression syntax
+2: External definition syntax
+2: External definition syntax
+10: regloc undefined
+37: Illegal structure ref
+40: Illegal structure ref
+40: Illegal lvalue
+40: Lvalue required
+40: Illegal indirection
+44: Illegal structure ref
+44: Illegal lvalue
+44: Lvalue required
+44: Illegal indirection
+52: Illegal structure ref
+52: Illegal lvalue
+52: Lvalue required
+74: Illegal structure ref
+74: Illegal lvalue
+74: Lvalue required
+74: Illegal structure ref
+74: Illegal lvalue
+74: Lvalue required
+74: Illegal indirection
+75: Illegal structure ref
+75: Illegal lvalue
+75: Lvalue required
+76: Illegal structure ref
+76: Illegal lvalue
+76: Lvalue required
+76: Illegal indirection
+77: Illegal structure ref
+77: Illegal lvalue
+77: Lvalue required
+77: Illegal indirection
+78: Illegal structure ref
+78: Illegal lvalue
+78: Lvalue required
+80: Illegal structure ref
+80: Illegal lvalue
+80: Lvalue required
+81: Illegal structure ref
+81: Illegal lvalue
+81: Lvalue required
+83: Illegal structure ref
+83: Illegal lvalue
+83: Lvalue required
+83: Illegal indirection
+84: Illegal structure ref
+84: Illegal lvalue
+84: Lvalue required
+84: Illegal indirection
+84: Illegal structure ref
+84: Illegal lvalue
+84: Lvalue required
+84: Illegal indirection
+85: Illegal structure ref
+85: Illegal lvalue
+85: Lvalue required
+85: Illegal indirection
+87: Illegal structure ref
+87: Illegal lvalue
+87: Lvalue required
+87: Illegal indirection
+88: Illegal structure ref
+88: Illegal lvalue
+88: Lvalue required
+92: Illegal structure ref
+92: Illegal lvalue
+92: Lvalue required
+92: Illegal indirection
+92: Illegal structure ref
+92: Illegal conversion
+92: Illegal structure ref
+93: Illegal structure ref
+93: Illegal lvalue
+93: Lvalue required
+103: Illegal structure ref
+103: Illegal lvalue
+103: Lvalue required
+103: Illegal indirection
+104: Illegal structure ref
+104: Illegal lvalue
+104: Lvalue required
+104: Illegal indirection
+104: Illegal structure ref
+104: Illegal lvalue
+104: Lvalue required
+104: Illegal indirection
+116: Illegal conversion
+120: Illegal structure ref
+120: Illegal lvalue
+120: Lvalue required
+120: Illegal structure ref
+127: Illegal structure ref
+127: Illegal lvalue
+127: Lvalue required
+128: Illegal structure ref
+128: Illegal lvalue
+128: Lvalue required
+128: Illegal indirection
+128: Illegal structure ref
+128: Illegal lvalue
+128: Lvalue required
+128: Illegal indirection
+129: Illegal structure ref
+129: Illegal lvalue
+129: Lvalue required
+129: Illegal structure ref
+129: Illegal lvalue
+129: Lvalue required
+129: Illegal indirection
+136: Illegal structure ref
+136: Illegal lvalue
+136: Lvalue required
+137: Illegal structure ref
+137: Illegal lvalue
+137: Lvalue required
+138: Illegal structure ref
+138: Illegal lvalue
+138: Lvalue required
+139: Illegal structure ref
+139: Illegal lvalue
+139: Lvalue required
+139: Illegal structure ref
+139: Illegal lvalue
+139: Lvalue required
+139: Illegal structure ref
+139: Illegal lvalue
+139: Lvalue required
+140: Illegal structure ref
+142: Illegal structure ref
+142: Illegal lvalue
+142: Lvalue required
+158: Illegal structure ref
+158: Illegal conversion
+159: Illegal structure ref
+159: Illegal lvalue
+159: Lvalue required
+160: Illegal structure ref
+160: Illegal lvalue
+160: Lvalue required
+160: Illegal structure ref
+161: Illegal structure ref
+161: Illegal conversion
+162: Illegal structure ref
+162: Illegal lvalue
+162: Lvalue required
+162: Illegal structure ref
+169: Illegal structure ref
+169: Illegal lvalue
+169: Lvalue required
+169: Illegal indirection
+170: Illegal structure ref
+170: Illegal lvalue
+170: Lvalue required
+170: Illegal indirection
+172: Illegal structure ref
+172: Illegal lvalue
+172: Lvalue required
+172: Illegal indirection
+173: Illegal structure ref
+173: Illegal lvalue
+173: Lvalue required
+175: Illegal structure ref
+175: Illegal lvalue
+175: Lvalue required
+175: Illegal indirection
+180: SSIZE undefined
+180: USIZE undefined
+180: .u_dsize undefined
+180: .u_procp undefined
+180: .u_error undefined
+180: .u_count undefined
+180: .u_tsize undefined
+180: .u_ssize undefined
+180: regloc undefined
+180: .b_addr undefined
+180: .i_flag undefined
+180: .p_addr undefined
+180: .i_mode undefined
+180: .u_base undefined
+180: .u_fsav undefined
+180: NSIG undefined
+180: NULL undefined
+180: u undefined
+180: ENOEXEC undefined
+180: .u_ar0 undefined
+180: E2BIG undefined
+180: R6 undefined
+180: R7 undefined
+180: .i_gid undefined
+180: ETXTBSY undefined
+180: IEXEC undefined
+180: .u_gid undefined
+180: .i_uid undefined
+180: ISGID undefined
+180: .u_arg undefined
+180: NODEV undefined
+180: .u_uid undefined
+180: ISUID undefined
+180: .u_segfl undefined
+180: .u_signa undefined
+180: .u_offse undefined
+180: ITEXT undefined
+180: .i_count undefined
+185: Illegal structure ref
+185: Illegal lvalue
+185: Lvalue required
+185: Illegal indirection
+185: Illegal structure ref
+185: Illegal lvalue
+185: Lvalue required
+187: regloc undefined
+187: u undefined
+187: .u_ar0 undefined
+187: R0 undefined
+187: .u_arg undefined
+195: Illegal structure ref
+195: Illegal lvalue
+195: Lvalue required
+195: Illegal indirection
+197: Illegal structure ref
+197: Illegal lvalue
+197: Lvalue required
+197: Illegal indirection
+199: Illegal structure ref
+199: Illegal lvalue
+199: Lvalue required
+199: Illegal indirection
+201: Illegal structure ref
+201: Illegal lvalue
+201: Lvalue required
+205: Illegal structure ref
+210: Illegal structure ref
+210: Illegal lvalue
+210: Lvalue required
+211: Illegal structure ref
+211: Illegal structure ref
+212: Illegal structure ref
+213: Illegal structure ref
+217: Illegal structure ref
+217: Illegal structure ref
+221: Illegal structure ref
+221: Illegal structure ref
+222: Illegal structure ref
+226: Illegal structure ref
+228: Illegal structure ref
+230: .u_procp undefined
+230: regloc undefined
+230: proc undefined
+230: NOFILE undefined
+230: .b_addr undefined
+230: .p_addr undefined
+230: .u_cdir undefined
+230: .p_ppid undefined
+230: .p_size undefined
+230: .p_stat undefined
+230: NSIG undefined
+230: NULL undefined
+230: u undefined
+230: SWAPDEV undefined
+230: coremap undefined
+230: swapmap undefined
+230: .p_pid undefined
+230: .u_ofile undefined
+230: NPROC undefined
+230: .u_signa undefined
+230: SZOMB undefined
+237: Undefined structure: .proc
+242: Illegal structure ref
+242: Illegal structure ref
+242: Illegal lvalue
+242: Lvalue required
+242: Illegal structure ref
+244: Illegal structure ref
+245: Illegal structure ref
+245: Illegal lvalue
+245: Lvalue required
+245: Illegal structure ref
+246: Illegal structure ref
+247: Illegal structure ref
+248: Illegal structure ref
+249: Illegal structure ref
+250: Illegal structure ref
+251: Illegal structure ref
+252: Illegal structure ref
+254: Illegal structure ref
+255: Illegal structure ref
+255: Illegal lvalue
+255: Lvalue required
+255: Illegal indirection
+255: Illegal structure ref
+256: Illegal structure ref
+256: Illegal lvalue
+256: Lvalue required
+256: Illegal structure ref
+257: Illegal structure ref
+257: Illegal lvalue
+257: Lvalue required
+257: Illegal structure ref
+258: Illegal structure ref
+258: Illegal lvalue
+258: Lvalue required
+258: Illegal indirection
+258: Illegal structure ref
+259: Illegal structure ref
+259: Illegal lvalue
+259: Lvalue required
+259: Illegal structure ref
+260: Illegal structure ref
+260: Illegal lvalue
+260: Lvalue required
+260: Illegal structure ref
+261: Illegal structure ref
+261: Illegal lvalue
+261: Lvalue required
+261: Illegal structure ref
+269: Illegal structure ref
+269: Illegal lvalue
+269: Lvalue required
+272: Illegal structure ref
+272: Illegal lvalue
+272: Lvalue required
+273: .u_cstim undefined
+273: .u_stime undefined
+273: .u_cutim undefined
+273: .u_procp undefined
+273: .u_utime undefined
+273: .u_error undefined
+273: ECHILD undefined
+273: regloc undefined
+273: proc undefined
+273: .b_addr undefined
+273: .p_flag undefined
+273: .p_addr undefined
+273: .p_ppid undefined
+273: .p_stat undefined
+273: NULL undefined
+273: u undefined
+273: .u_ar0 undefined
+273: .p_ttyp undefined
+273: R0 undefined
+273: R1 undefined
+273: SWAPDEV undefined
+273: swapmap undefined
+273: .p_pid undefined
+273: .u_arg undefined
+273: .p_sig undefined
+273: NPROC undefined
+273: PWAIT undefined
+273: SZOMB undefined
+280: Undefined structure: .proc
+280: Illegal structure ref
+280: Illegal lvalue
+280: Lvalue required
+283: Illegal structure ref
+287: Illegal structure ref
+287: Illegal lvalue
+287: Lvalue required
+292: Illegal structure ref
+292: Illegal lvalue
+292: Lvalue required
+292: Illegal structure ref
+293: Illegal structure ref
+293: Illegal lvalue
+293: Lvalue required
+293: Illegal indirection
+294: Illegal structure ref
+294: Illegal lvalue
+294: Lvalue required
+294: Illegal indirection
+295: Illegal structure ref
+295: Illegal lvalue
+295: Lvalue required
+296: Illegal structure ref
+296: Illegal lvalue
+296: Lvalue required
+296: Illegal indirection
+297: Illegal structure ref
+297: Illegal lvalue
+297: Lvalue required
+297: Illegal indirection
+298: Illegal structure ref
+298: Illegal lvalue
+298: Lvalue required
+301: Illegal structure ref
+301: Illegal lvalue
+301: Lvalue required
+301: Illegal structure ref
+304: Illegal structure ref
+304: Illegal lvalue
+304: Lvalue required
+305: .u_cstim undefined
+305: .u_stime undefined
+305: .u_cutim undefined
+305: .u_procp undefined
+305: .u_utime undefined
+305: .u_error undefined
+305: EAGAIN undefined
+305: regloc undefined
+305: proc undefined
+305: .p_stat undefined
+305: NULL undefined
+305: u undefined
+305: .u_ar0 undefined
+305: R0 undefined
+305: R7 undefined
+305: .p_pid undefined
+305: NPROC undefined
+317: Illegal structure ref
+317: Illegal lvalue
+317: Lvalue required
+317: Illegal indirection
+317: Illegal structure ref
+317: Illegal lvalue
+317: Lvalue required
+320: Illegal structure ref
+320: Illegal lvalue
+320: Lvalue required
+321: Illegal structure ref
+321: Illegal lvalue
+321: Lvalue required
+321: Illegal conversion
+322: Illegal structure ref
+322: Illegal lvalue
+322: Lvalue required
+322: Illegal structure ref
+322: Illegal lvalue
+322: Lvalue required
+322: Illegal structure ref
+322: Illegal lvalue
+322: Lvalue required
+324: Illegal structure ref
+324: Illegal lvalue
+324: Lvalue required
+327: Illegal structure ref
+327: Illegal lvalue
+327: Lvalue required
+327: Illegal structure ref
+327: Illegal structure ref
+327: Illegal lvalue
+327: Lvalue required
+328: Illegal structure ref
+328: Illegal lvalue
+328: Lvalue required
+337: Illegal structure ref
+337: Illegal lvalue
+337: Lvalue required
+337: Illegal structure ref
+338: Illegal structure ref
+338: Illegal lvalue
+338: Lvalue required
+344: USIZE undefined
+344: .u_dsize undefined
+344: .u_procp undefined
+344: .u_ssize undefined
+344: .u_tsize undefined
+344: regloc undefined
+344: .p_addr undefined
+344: u undefined
+344: .u_arg undefined
+346: regloc undefined
+sys2.c:
+2: Expression syntax
+2: External definition syntax
+2: External definition syntax
+10: Unknown keyword
+10: Statement syntax
+13: read undefined
+13: readi undefined
+13: FREAD undefined
+20: read undefined
+20: FWRITE undefined
+20: readi undefined
+20: FREAD undefined
+27: Illegal structure ref
+27: Illegal lvalue
+27: Lvalue required
+30: Illegal structure ref
+31: Illegal structure ref
+31: Illegal lvalue
+31: Lvalue required
+34: Illegal structure ref
+34: Illegal lvalue
+34: Lvalue required
+34: Illegal structure ref
+34: Illegal lvalue
+34: Lvalue required
+34: Illegal indirection
+35: Illegal structure ref
+35: Illegal lvalue
+35: Lvalue required
+35: Illegal structure ref
+35: Illegal lvalue
+35: Lvalue required
+35: Illegal indirection
+36: Illegal structure ref
+36: Illegal lvalue
+36: Lvalue required
+36: Illegal indirection
+36: Illegal structure ref
+37: Illegal structure ref
+37: Illegal lvalue
+37: Lvalue required
+37: Illegal indirection
+37: Illegal structure ref
+38: Illegal structure ref
+38: Illegal lvalue
+38: Lvalue required
+39: Illegal structure ref
+40: Illegal structure ref
+40: Illegal lvalue
+40: Lvalue required
+40: Illegal structure ref
+40: Illegal lvalue
+40: Lvalue required
+40: Illegal indirection
+40: Illegal structure ref
+40: Illegal lvalue
+40: Lvalue required
+41: Illegal structure ref
+41: Illegal structure ref
+41: Illegal lvalue
+41: Lvalue required
+42: read undefined
+42: .u_error undefined
+42: .u_count undefined
+42: .f_flag undefined
+42: .u_base undefined
+42: NULL undefined
+42: readi undefined
+42: u undefined
+42: .u_ar0 undefined
+42: R0 undefined
+42: EBADF undefined
+42: FREAD undefined
+42: .f_inode undefined
+42: .u_arg undefined
+42: .f_offse undefined
+42: .u_segfl undefined
+42: .u_offse undefined
+52: Illegal structure ref
+52: Illegal lvalue
+52: Lvalue required
+52: Illegal indirection
+53: Illegal structure ref
+53: Illegal lvalue
+53: Lvalue required
+53: Illegal indirection
+54: read undefined
+54: NULL undefined
+54: readi undefined
+54: u undefined
+54: FREAD undefined
+54: .u_arg undefined
+63: Illegal structure ref
+63: Illegal lvalue
+63: Lvalue required
+65: Illegal structure ref
+65: Illegal lvalue
+65: Lvalue required
+65: Illegal indirection
+69: read undefined
+69: .u_error undefined
+69: FWRITE undefined
+69: NULL undefined
+69: readi undefined
+69: u undefined
+69: FREAD undefined
+69: .u_arg undefined
+76: Undefined structure: .file
+81: Illegal structure ref
+81: Illegal conversion
+82: Illegal structure ref
+82: Illegal lvalue
+82: Lvalue required
+85: Illegal structure ref
+85: Illegal conversion
+86: Illegal structure ref
+86: Illegal lvalue
+86: Lvalue required
+88: Illegal structure ref
+88: Illegal lvalue
+88: Lvalue required
+98: Illegal structure ref
+98: Illegal conversion
+99: Illegal structure ref
+100: Illegal structure ref
+101: Illegal structure ref
+102: read undefined
+102: .u_error undefined
+102: EISDIR undefined
+102: .f_flag undefined
+102: .i_flag undefined
+102: FWRITE undefined
+102: .i_mode undefined
+102: IWRITE undefined
+102: IFMT undefined
+102: NULL undefined
+102: readi undefined
+102: u undefined
+102: FREAD undefined
+102: IREAD undefined
+102: IFDIR undefined
+102: ILOCK undefined
+102: .f_inode undefined
+102: .f_offse undefined
+108: Illegal structure ref
+108: Illegal lvalue
+108: Lvalue required
+111: Illegal structure ref
+111: Illegal lvalue
+111: Lvalue required
+111: Illegal structure ref
+111: Illegal lvalue
+111: Lvalue required
+111: Illegal indirection
+113: read undefined
+113: NULL undefined
+113: readi undefined
+113: u undefined
+113: .u_ar0 undefined
+113: R0 undefined
+113: FREAD undefined
+113: .u_ofile undefined
+120: Illegal structure ref
+120: Illegal lvalue
+120: Lvalue required
+123: Illegal structure ref
+123: Illegal lvalue
+123: Lvalue required
+123: Illegal indirection
+124: Illegal structure ref
+124: Illegal lvalue
+124: Lvalue required
+124: Illegal indirection
+125: Illegal structure ref
+125: Illegal lvalue
+125: Lvalue required
+125: Illegal indirection
+127: Illegal structure ref
+127: Illegal lvalue
+127: Lvalue required
+127: Illegal indirection
+130: Illegal structure ref
+130: Illegal lvalue
+130: Lvalue required
+130: Illegal indirection
+134: Illegal structure ref
+135: Illegal structure ref
+139: Illegal structure ref
+139: Illegal structure ref
+139: Illegal conversion
+140: Illegal structure ref
+140: Illegal structure ref
+146: Illegal structure ref
+147: Illegal structure ref
+148: read undefined
+148: NULL undefined
+148: readi undefined
+148: u undefined
+148: .u_ar0 undefined
+148: R0 undefined
+148: .i_size0 undefined
+148: .i_size1 undefined
+148: FREAD undefined
+148: .f_inode undefined
+148: .u_arg undefined
+148: .f_offse undefined
+158: Illegal structure ref
+158: Illegal conversion
+159: Illegal structure ref
+159: Illegal lvalue
+159: Lvalue required
+159: Illegal structure ref
+159: Illegal lvalue
+159: Lvalue required
+159: Illegal indirection
+162: Illegal structure ref
+162: Illegal lvalue
+162: Lvalue required
+165: Illegal structure ref
+165: Illegal lvalue
+165: Lvalue required
+167: Illegal structure ref
+167: Illegal lvalue
+167: Lvalue required
+167: Illegal structure ref
+167: Illegal structure ref
+168: Illegal structure ref
+168: Illegal lvalue
+168: Lvalue required
+169: Illegal structure ref
+169: Illegal lvalue
+169: Lvalue required
+173: Illegal structure ref
+174: Illegal structure ref
+174: Illegal conversion
+178: read undefined
+178: .u_error undefined
+178: .i_flag undefined
+178: EEXIST undefined
+178: .u_dirp undefined
+178: .u_pdir undefined
+178: IUPD undefined
+178: NULL undefined
+178: readi undefined
+178: u undefined
+178: FREAD undefined
+178: .i_dev undefined
+178: ILOCK undefined
+178: .u_arg undefined
+178: EXDEV undefined
+178: .i_nlink undefined
+188: Illegal structure ref
+188: Illegal lvalue
+188: Lvalue required
+192: Illegal structure ref
+192: Illegal lvalue
+192: Lvalue required
+194: Illegal structure ref
+194: Illegal lvalue
+194: Lvalue required
+194: Illegal indirection
+195: Illegal structure ref
+195: Illegal structure ref
+195: Illegal lvalue
+195: Lvalue required
+195: Illegal indirection
+199: read undefined
+199: .u_error undefined
+199: .i_addr undefined
+199: EEXIST undefined
+199: NULL undefined
+199: readi undefined
+199: u undefined
+199: FREAD undefined
+199: .u_arg undefined
+208: Illegal structure ref
+208: Illegal lvalue
+208: Lvalue required
+219: read undefined
+219: time undefined
+219: tout undefined
+219: readi undefined
+219: u undefined
+219: .u_ar0 undefined
+219: R0 undefined
+219: FREAD undefined
+219: PSLEP undefined
+221: read undefined
+221: readi undefined
+221: FREAD undefined
+sys3.c:
+2: Expression syntax
+2: External definition syntax
+2: External definition syntax
+13: Unknown keyword
+13: Statement syntax
+14: define undefined
+14: CSW undefined
+14: csw undefined
+14: define undefined
+14: CSW undefined
+14: csw undefined
+19: Illegal structure ref
+19: Illegal lvalue
+19: Lvalue required
+19: Illegal structure ref
+20: define undefined
+20: CSW undefined
+20: u undefined
+20: .u_ar0 undefined
+20: R0 undefined
+20: csw undefined
+20: .csw undefined
+25: Illegal structure ref
+25: Illegal lvalue
+25: Lvalue required
+26: Illegal structure ref
+26: Illegal lvalue
+26: Lvalue required
+27: define undefined
+27: time undefined
+27: CSW undefined
+27: u undefined
+27: .u_ar0 undefined
+27: R0 undefined
+27: R1 undefined
+27: csw undefined
+33: Illegal structure ref
+33: Illegal lvalue
+33: Lvalue required
+34: Illegal structure ref
+34: Illegal lvalue
+34: Lvalue required
+37: define undefined
+37: time undefined
+37: CSW undefined
+37: tout undefined
+37: u undefined
+37: .u_ar0 undefined
+37: R0 undefined
+37: R1 undefined
+37: csw undefined
+42: Illegal structure ref
+42: Illegal lvalue
+42: Lvalue required
+42: Illegal structure ref
+42: Illegal lvalue
+42: Lvalue required
+42: Illegal indirection
+43: Illegal structure ref
+43: Illegal lvalue
+43: Lvalue required
+43: Illegal structure ref
+43: Illegal lvalue
+43: Lvalue required
+44: Illegal structure ref
+44: Illegal lvalue
+44: Lvalue required
+44: Illegal structure ref
+44: Illegal lvalue
+44: Lvalue required
+46: define undefined
+46: CSW undefined
+46: .u_ruid undefined
+46: u undefined
+46: .u_ar0 undefined
+46: R0 undefined
+46: csw undefined
+46: .u_arg undefined
+46: .u_uid undefined
+51: Illegal structure ref
+51: Illegal lvalue
+51: Lvalue required
+51: Illegal structure ref
+51: Illegal lvalue
+51: Lvalue required
+52: define undefined
+52: CSW undefined
+52: .u_ruid undefined
+52: u undefined
+52: .u_ar0 undefined
+52: R0 undefined
+52: csw undefined
+57: Illegal structure ref
+57: Illegal lvalue
+57: Lvalue required
+57: Illegal structure ref
+57: Illegal lvalue
+57: Lvalue required
+57: Illegal indirection
+58: Illegal structure ref
+58: Illegal lvalue
+58: Lvalue required
+58: Illegal structure ref
+58: Illegal lvalue
+58: Lvalue required
+59: Illegal structure ref
+59: Illegal lvalue
+59: Lvalue required
+59: Illegal structure ref
+59: Illegal lvalue
+59: Lvalue required
+61: define undefined
+61: CSW undefined
+61: .u_rgid undefined
+61: u undefined
+61: .u_ar0 undefined
+61: R0 undefined
+61: csw undefined
+61: .u_gid undefined
+61: .u_arg undefined
+66: Illegal structure ref
+66: Illegal lvalue
+66: Lvalue required
+66: Illegal structure ref
+66: Illegal lvalue
+66: Lvalue required
+67: define undefined
+67: CSW undefined
+67: .u_rgid undefined
+67: u undefined
+67: .u_ar0 undefined
+67: R0 undefined
+67: csw undefined
+73: define undefined
+73: CSW undefined
+73: csw undefined
+84: Illegal structure ref
+85: Illegal structure ref
+85: Illegal lvalue
+85: Lvalue required
+85: Illegal structure ref
+86: Illegal structure ref
+86: Illegal lvalue
+86: Lvalue required
+86: Illegal indirection
+86: Illegal conversion
+87: Illegal structure ref
+87: Illegal lvalue
+87: Lvalue required
+87: Illegal structure ref
+87: Illegal lvalue
+87: Lvalue required
+88: Illegal structure ref
+88: Illegal lvalue
+88: Lvalue required
+89: Illegal structure ref
+89: Illegal lvalue
+89: Lvalue required
+89: Illegal structure ref
+95: Illegal structure ref
+96: Illegal structure ref
+96: Illegal conversion
+98: .u_count undefined
+98: define undefined
+98: CSW undefined
+98: .i_flag undefined
+98: DIRSIZ undefined
+98: .u_base undefined
+98: .u_dent undefined
+98: IUPD undefined
+98: NULL undefined
+98: u undefined
+98: csw undefined
+98: .i_dev undefined
+98: .u_ino undefined
+98: .i_nlink undefined
+98: .u_offse undefined
+108: Illegal structure ref
+108: Illegal conversion
+109: Illegal structure ref
+109: Illegal lvalue
+109: Lvalue required
+116: Illegal structure ref
+116: Illegal lvalue
+116: Lvalue required
+117: Illegal structure ref
+117: Illegal lvalue
+117: Lvalue required
+118: Illegal structure ref
+118: Illegal conversion
+119: .u_error undefined
+119: define undefined
+119: CSW undefined
+119: .i_flag undefined
+119: .i_mode undefined
+119: .u_cdir undefined
+119: IFMT undefined
+119: NULL undefined
+119: u undefined
+119: csw undefined
+119: ENOTDIR undefined
+119: IFDIR undefined
+119: IEXEC undefined
+119: ILOCK undefined
+130: Illegal structure ref
+131: Illegal structure ref
+131: Illegal structure ref
+131: Illegal lvalue
+131: Lvalue required
+131: Illegal indirection
+132: Illegal structure ref
+132: Illegal conversion
+135: define undefined
+135: CSW undefined
+135: .i_flag undefined
+135: .i_mode undefined
+135: IUPD undefined
+135: NULL undefined
+135: u undefined
+135: csw undefined
+135: .u_arg undefined
+146: Illegal structure ref
+146: Illegal structure ref
+146: Illegal lvalue
+146: Lvalue required
+146: Illegal indirection
+147: Illegal structure ref
+147: Illegal conversion
+148: Illegal structure ref
+148: Illegal conversion
+151: define undefined
+151: CSW undefined
+151: .i_flag undefined
+151: .i_mode undefined
+151: IUPD undefined
+151: NULL undefined
+151: u undefined
+151: csw undefined
+151: .i_uid undefined
+151: .u_arg undefined
+151: ISUID undefined
+157: Illegal structure ref
+157: Illegal lvalue
+157: Lvalue required
+160: Illegal structure ref
+160: Illegal structure ref
+160: Illegal lvalue
+160: Lvalue required
+160: Illegal indirection
+161: define undefined
+161: CSW undefined
+161: NULL undefined
+161: u undefined
+161: .u_ar0 undefined
+161: R0 undefined
+161: csw undefined
+161: .f_inode undefined
+161: .u_arg undefined
+171: Illegal structure ref
+171: Illegal lvalue
+171: Lvalue required
+171: Illegal indirection
+173: define undefined
+173: CSW undefined
+173: NULL undefined
+173: u undefined
+173: csw undefined
+173: .u_arg undefined
+181: Illegal structure ref
+181: Illegal structure ref
+182: Illegal structure ref
+182: Illegal structure ref
+183: Illegal structure ref
+193: define undefined
+193: CSW undefined
+193: .b_addr undefined
+193: csw undefined
+193: .i_dev undefined
+193: .i_numbe undefined
+199: Illegal structure ref
+199: Illegal lvalue
+199: Lvalue required
+204: Illegal structure ref
+204: Illegal lvalue
+204: Lvalue required
+204: Illegal indirection
+205: Illegal structure ref
+206: define undefined
+206: CSW undefined
+206: NULL undefined
+206: u undefined
+206: .u_ar0 undefined
+206: R0 undefined
+206: csw undefined
+206: .u_ofile undefined
+206: .f_count undefined
+214: Undefined structure: .mount
+215: Illegal structure ref
+215: Illegal lvalue
+215: Lvalue required
+217: Illegal structure ref
+217: Illegal lvalue
+217: Lvalue required
+217: Illegal structure ref
+217: Illegal lvalue
+217: Lvalue required
+217: Illegal indirection
+221: Illegal structure ref
+221: Illegal structure ref
+221: Illegal conversion
+226: Illegal structure ref
+227: Illegal structure ref
+237: Illegal structure ref
+237: Illegal lvalue
+237: Lvalue required
+241: Illegal structure ref
+242: Illegal structure ref
+243: Illegal structure ref
+245: Illegal structure ref
+245: Illegal structure ref
+245: Illegal structure ref
+246: Illegal structure ref
+246: Illegal structure ref
+247: Illegal structure ref
+248: Illegal structure ref
+249: Illegal structure ref
+251: Illegal structure ref
+251: Illegal conversion
+252: Illegal structure ref
+252: Illegal conversion
+256: Illegal structure ref
+256: Illegal lvalue
+256: Lvalue required
+259: .u_error undefined
+259: define undefined
+259: CSW undefined
+259: .b_addr undefined
+259: .i_flag undefined
+259: .i_mode undefined
+259: IMOUNT undefined
+259: .m_bufp undefined
+259: NMOUNT undefined
+259: .u_dirp undefined
+259: NULL undefined
+259: u undefined
+259: csw undefined
+259: IFBLK undefined
+259: mount undefined
+259: IFCHR undefined
+259: .m_dev undefined
+259: ILOCK undefined
+259: .u_arg undefined
+259: NODEV undefined
+259: .s_flock undefined
+259: .s_ilock undefined
+259: .m_inodp undefined
+259: .s_ninod undefined
+259: EBUSY undefined
+259: .i_count undefined
+267: Undefined structure: .mount
+267: Undefined structure: .inode
+269: Illegal structure ref
+269: Illegal lvalue
+269: Lvalue required
+273: Illegal structure ref
+273: Illegal structure ref
+277: Illegal structure ref
+277: Illegal lvalue
+277: Lvalue required
+283: Illegal structure ref
+283: Illegal structure ref
+284: Illegal structure ref
+284: Illegal lvalue
+284: Lvalue required
+289: Illegal structure ref
+290: Illegal structure ref
+290: Illegal conversion
+292: Illegal structure ref
+293: Illegal structure ref
+295: .u_error undefined
+295: define undefined
+295: CSW undefined
+295: EINVAL undefined
+295: NINODE undefined
+295: .i_flag undefined
+295: IMOUNT undefined
+295: .m_bufp undefined
+295: NMOUNT undefined
+295: NULL undefined
+295: u undefined
+295: inode undefined
+295: csw undefined
+295: mount undefined
+295: .i_dev undefined
+295: .m_dev undefined
+295: .i_numbe undefined
+295: .m_inodp undefined
+295: EBUSY undefined
+305: Illegal structure ref
+305: Illegal conversion
+306: Illegal structure ref
+306: Illegal lvalue
+306: Lvalue required
+307: Illegal structure ref
+310: .u_error undefined
+310: define undefined
+310: CSW undefined
+310: .i_addr undefined
+310: .i_mode undefined
+310: IFMT undefined
+310: NULL undefined
+310: u undefined
+310: ENOTBLK undefined
+310: csw undefined
+310: IFBLK undefined
+312: define undefined
+312: CSW undefined
+312: csw undefined
+sys4.c:
+2: Expression syntax
+2: External definition syntax
+2: External definition syntax
+8: Illegal structure ref
+8: Illegal lvalue
+8: Lvalue required
+8: Illegal indirection
+8: Illegal structure ref
+8: Illegal lvalue
+8: Lvalue required
+8: Illegal indirection
+9: Illegal structure ref
+9: Illegal lvalue
+9: Lvalue required
+9: Illegal indirection
+10: Illegal structure ref
+10: Illegal lvalue
+10: Lvalue required
+10: Illegal structure ref
+10: Illegal lvalue
+10: Lvalue required
+10: Illegal indirection
+11: quit undefined
+11: SIGQIT undefined
+11: u undefined
+11: .u_arg undefined
+11: .u_signa undefined
+15: Illegal structure ref
+15: Illegal lvalue
+15: Lvalue required
+15: Illegal indirection
+15: Illegal structure ref
+15: Illegal lvalue
+15: Lvalue required
+15: Illegal indirection
+16: Illegal structure ref
+16: Illegal lvalue
+16: Lvalue required
+16: Illegal indirection
+17: Illegal structure ref
+17: Illegal lvalue
+17: Lvalue required
+17: Illegal structure ref
+17: Illegal lvalue
+17: Lvalue required
+17: Illegal indirection
+18: quit undefined
+18: SIGINT undefined
+18: SIGQIT undefined
+18: u undefined
+18: .u_arg undefined
+18: .u_signa undefined
+22: Illegal structure ref
+22: Illegal lvalue
+22: Lvalue required
+22: Illegal structure ref
+22: Illegal lvalue
+22: Lvalue required
+22: Illegal indirection
+23: quit undefined
+23: SIGEMT undefined
+23: SIGQIT undefined
+23: u undefined
+23: .u_arg undefined
+23: .u_signa undefined
+27: Illegal structure ref
+27: Illegal lvalue
+27: Lvalue required
+27: Illegal structure ref
+27: Illegal lvalue
+27: Lvalue required
+27: Illegal indirection
+28: quit undefined
+28: SIGINS undefined
+28: SIGQIT undefined
+28: u undefined
+28: .u_arg undefined
+28: .u_signa undefined
+32: Illegal structure ref
+32: Illegal lvalue
+32: Lvalue required
+32: Illegal structure ref
+32: Illegal lvalue
+32: Lvalue required
+32: Illegal indirection
+33: quit undefined
+33: SIGFPT undefined
+33: SIGQIT undefined
+33: u undefined
+33: .u_arg undefined
+33: .u_signa undefined
+37: Illegal structure ref
+37: Illegal lvalue
+37: Lvalue required
+37: Illegal indirection
+37: Illegal structure ref
+37: Illegal lvalue
+37: Lvalue required
+37: Illegal indirection
+38: Illegal structure ref
+38: Illegal lvalue
+38: Lvalue required
+41: Illegal structure ref
+41: Illegal lvalue
+41: Lvalue required
+41: Illegal structure ref
+41: Illegal lvalue
+41: Lvalue required
+41: Illegal structure ref
+41: Illegal lvalue
+41: Lvalue required
+41: Illegal indirection
+41: Illegal indirection
+42: Illegal structure ref
+42: Illegal lvalue
+42: Lvalue required
+42: Illegal indirection
+43: Illegal structure ref
+43: Illegal lvalue
+43: Lvalue required
+43: Illegal structure ref
+43: Illegal lvalue
+43: Lvalue required
+43: Illegal indirection
+43: Illegal indirection
+43: Illegal structure ref
+43: Illegal lvalue
+43: Lvalue required
+43: Illegal indirection
+44: Illegal structure ref
+44: Illegal lvalue
+44: Lvalue required
+44: Illegal structure ref
+44: Illegal structure ref
+44: Illegal lvalue
+44: Lvalue required
+44: Illegal indirection
+45: Illegal structure ref
+45: Illegal lvalue
+45: Lvalue required
+45: Illegal structure ref
+46: .u_procp undefined
+46: .u_error undefined
+46: EINVAL undefined
+46: quit undefined
+46: SIGQIT undefined
+46: NSIG undefined
+46: u undefined
+46: .u_ar0 undefined
+46: R0 undefined
+46: .u_arg undefined
+46: .p_sig undefined
+46: .u_signa undefined
+53: Undefined structure: .proc
+55: Illegal structure ref
+55: Illegal structure ref
+55: Illegal lvalue
+55: Lvalue required
+59: Illegal structure ref
+59: Illegal lvalue
+59: Lvalue required
+63: Illegal structure ref
+63: Illegal structure ref
+63: Illegal lvalue
+63: Lvalue required
+63: Illegal structure ref
+67: .u_procp undefined
+67: .u_error undefined
+67: proc undefined
+67: quit undefined
+67: SIGKIL undefined
+67: SIGQIT undefined
+67: u undefined
+67: .u_ar0 undefined
+67: .p_ttyp undefined
+67: R0 undefined
+67: .p_pid undefined
+67: .u_arg undefined
+67: ESRCH undefined
+67: NPROC undefined
+67: .u_signa undefined
+73: Illegal structure ref
+73: Illegal lvalue
+73: Lvalue required
+75: Illegal structure ref
+75: Illegal lvalue
+75: Lvalue required
+75: Illegal indirection
+77: Illegal structure ref
+77: Illegal lvalue
+77: Lvalue required
+77: Illegal indirection
+79: .u_utime undefined
+79: quit undefined
+79: SIGQIT undefined
+79: u undefined
+79: .u_arg undefined
+79: .u_signa undefined
+81: quit undefined
+81: SIGQIT undefined
+81: u undefined
+81: .u_arg undefined
+81: .u_signa undefined
+sysent.c:
+text.c:
+2: Expression syntax
+2: External definition syntax
+2: External definition syntax
+9: ff undefined
+9: os undefined
+9: p undefined
+9: xswap undefined
+10: External definition syntax
+11: Unknown keyword
+11: Statement syntax
+12: Unknown keyword
+12: Statement syntax
+14: Lvalue required
+16: Illegal structure ref
+16: Lvalue required
+17: Illegal structure ref
+17: Lvalue required
+20: Illegal structure ref
+21: Lvalue required
+22: Illegal structure ref
+22: Illegal conversion
+23: Illegal structure ref
+26: Illegal structure ref
+27: Lvalue required
+28: Illegal structure ref
+29: Illegal structure ref
+29: Illegal conversion
+31: Lvalue required
+34: ff undefined
+34: .p_textp undefined
+34: os undefined
+34: rp undefined
+34: .p_flag undefined
+34: .p_addr undefined
+34: runout undefined
+34: .p_size undefined
+34: a undefined
+34: p undefined
+34: NULL undefined
+34: coremap undefined
+34: swapmap undefined
+34: xswap undefined
+34: SLOAD undefined
+34: SLOCK undefined
+41: Illegal structure ref
+41: Illegal lvalue
+41: Lvalue required
+41: Illegal structure ref
+45: Illegal structure ref
+46: Illegal structure ref
+46: Illegal structure ref
+47: Illegal structure ref
+48: Illegal structure ref
+48: Illegal conversion
+51: Illegal structure ref
+51: Illegal lvalue
+51: Lvalue required
+51: Illegal structure ref
+53: ff undefined
+53: .u_procp undefined
+53: .x_count undefined
+53: .p_textp undefined
+53: os undefined
+53: .i_flag undefined
+53: .p_flag undefined
+53: .p_addr undefined
+53: runout undefined
+53: .p_size undefined
+53: a undefined
+53: .x_size undefined
+53: .x_iptr undefined
+53: p undefined
+53: NULL undefined
+53: u undefined
+53: coremap undefined
+53: swapmap undefined
+53: xswap undefined
+53: SLOAD undefined
+53: .x_daddr undefined
+53: SLOCK undefined
+53: ITEXT undefined
+58: rp redeclared
+61: Undefined structure: .text
+61: Illegal structure ref
+61: Illegal lvalue
+61: Lvalue required
+61: Illegal indirection
+64: Illegal conversion
+64: Illegal indirection
+65: Illegal structure ref
+69: Illegal structure ref
+70: Illegal structure ref
+71: Illegal structure ref
+71: Illegal lvalue
+71: Lvalue required
+71: Illegal structure ref
+76: Illegal structure ref
+77: Illegal structure ref
+78: Illegal structure ref
+79: Illegal structure ref
+79: Illegal lvalue
+79: Lvalue required
+79: Illegal indirection
+80: Illegal structure ref
+81: Illegal structure ref
+85: Illegal structure ref
+85: Illegal lvalue
+85: Lvalue required
+85: Illegal structure ref
+85: Illegal lvalue
+85: Lvalue required
+85: Illegal indirection
+86: Illegal structure ref
+86: Illegal lvalue
+86: Lvalue required
+86: Illegal indirection
+87: Illegal structure ref
+87: Illegal lvalue
+87: Lvalue required
+89: Illegal structure ref
+89: Illegal lvalue
+89: Lvalue required
+90: Illegal structure ref
+90: Illegal conversion
+91: Illegal structure ref
+91: Illegal structure ref
+91: Illegal conversion
+92: Illegal structure ref
+92: Illegal lvalue
+92: Lvalue required
+93: Illegal structure ref
+93: Illegal conversion
+94: Illegal structure ref
+96: Illegal structure ref
+96: Illegal conversion
+97: Illegal structure ref
+101: Illegal structure ref
+102: Illegal structure ref
+102: Illegal lvalue
+102: Lvalue required
+103: Illegal structure ref
+103: Illegal lvalue
+103: Lvalue required
+104: Illegal structure ref
+104: Illegal lvalue
+104: Lvalue required
+104: Illegal structure ref
+104: Illegal conversion
+108: Illegal structure ref
+109: USIZE undefined
+109: SSWAP undefined
+109: NTEXT undefined
+109: ff undefined
+109: .u_procp undefined
+109: .u_count undefined
+109: .x_count undefined
+109: .p_textp undefined
+109: os undefined
+109: text undefined
+109: .i_flag undefined
+109: .p_flag undefined
+109: .p_addr undefined
+109: .u_base undefined
+109: runout undefined
+109: .p_size undefined
+109: a undefined
+109: .u_ssav undefined
+109: .x_size undefined
+109: .x_iptr undefined
+109: p undefined
+109: NULL undefined
+109: u undefined
+109: coremap undefined
+109: swapmap undefined
+109: SLOAD undefined
+109: .u_arg undefined
+109: .x_daddr undefined
+109: SLOCK undefined
+109: .u_offse undefined
+109: .x_ccoun undefined
+109: ITEXT undefined
+109: .i_count undefined
+114: rp redeclared
+116: Illegal structure ref
+117: Illegal structure ref
+118: Illegal structure ref
+118: Illegal structure ref
+119: ff undefined
+119: .p_textp undefined
+119: os undefined
+119: .p_flag undefined
+119: .p_addr undefined
+119: runout undefined
+119: .p_size undefined
+119: a undefined
+119: .x_size undefined
+119: p undefined
+119: NULL undefined
+119: coremap undefined
+119: swapmap undefined
+119: SLOAD undefined
+119: .x_caddr undefined
+119: SLOCK undefined
+119: .x_ccoun undefined
+121: ff undefined
+121: .p_textp undefined
+121: os undefined
+121: .p_flag undefined
+121: .p_addr undefined
+121: runout undefined
+121: .p_size undefined
+121: a undefined
+121: p undefined
+121: NULL undefined
+121: coremap undefined
+121: swapmap undefined
+121: SLOAD undefined
+121: SLOCK undefined
+trap.c:
+2: Expression syntax
+2: External definition syntax
+2: External definition syntax
+11: Unknown keyword
+11: Statement syntax
+12: Unknown keyword
+12: Statement syntax
+13: call undefined
+13: define undefined
+13: EBIT undefined
+13: count undefined
+13: UMODE undefined
+13: call undefined
+13: define undefined
+13: EBIT undefined
+13: count undefined
+13: UMODE undefined
+17: call undefined
+17: define undefined
+17: EBIT undefined
+17: count undefined
+17: UMODE undefined
+17: call undefined
+17: define undefined
+17: EBIT undefined
+17: count undefined
+17: UMODE undefined
+20: Inconsistent external initialization
+20: Inconsistent external initialization
+20: Inconsistent external initialization
+20: Inconsistent external initialization
+20: Inconsistent external initialization
+20: Inconsistent external initialization
+20: Inconsistent external initialization
+21: Inconsistent external initialization
+21: call undefined
+21: define undefined
+21: EBIT undefined
+21: count undefined
+21: UMODE undefined
+29: Illegal structure ref
+29: Illegal lvalue
+29: Lvalue required
+34: Illegal structure ref
+34: Illegal lvalue
+34: Lvalue required
+38: Illegal structure ref
+38: Illegal lvalue
+38: Lvalue required
+38: Illegal structure ref
+38: Illegal lvalue
+38: Lvalue required
+38: Illegal structure ref
+38: Illegal lvalue
+38: Lvalue required
+39: Illegal structure ref
+39: Illegal lvalue
+39: Lvalue required
+39: Illegal conversion
+40: Illegal structure ref
+40: Illegal lvalue
+40: Lvalue required
+40: Illegal structure ref
+40: Illegal conversion
+41: Illegal structure ref
+41: Illegal lvalue
+41: Lvalue required
+41: Illegal structure ref
+41: Illegal structure ref
+41: Illegal lvalue
+41: Lvalue required
+41: Illegal structure ref
+41: Illegal conversion
+42: Illegal structure ref
+42: Illegal lvalue
+42: Lvalue required
+49: Illegal structure ref
+49: Illegal lvalue
+49: Lvalue required
+77: Illegal structure ref
+77: Illegal lvalue
+77: Lvalue required
+80: Illegal structure ref
+80: Illegal lvalue
+80: Lvalue required
+84: Illegal structure ref
+84: Illegal lvalue
+84: Lvalue required
+86: Illegal conversion
+95: Illegal structure ref
+95: Illegal conversion
+97: Illegal structure ref
+98: Illegal structure ref
+98: Illegal lvalue
+98: Lvalue required
+98: Illegal indirection
+101: Illegal structure ref
+101: Illegal lvalue
+101: Lvalue required
+101: Illegal structure ref
+101: Illegal lvalue
+101: Lvalue required
+101: Illegal indirection
+102: Illegal structure ref
+102: Illegal lvalue
+102: Lvalue required
+103: Illegal structure ref
+104: Illegal structure ref
+104: Illegal lvalue
+104: Lvalue required
+105: Illegal structure ref
+105: Illegal lvalue
+105: Lvalue required
+109: Illegal structure ref
+109: Illegal lvalue
+109: Lvalue required
+110: Illegal conversion
+111: Illegal structure ref
+111: Illegal lvalue
+111: Lvalue required
+113: Illegal structure ref
+113: Illegal lvalue
+113: Lvalue required
+113: Illegal structure ref
+113: Illegal structure ref
+113: Illegal lvalue
+113: Lvalue required
+113: Illegal structure ref
+113: Illegal conversion
+114: Illegal structure ref
+114: Illegal lvalue
+114: Lvalue required
+114: Illegal structure ref
+114: Illegal structure ref
+125: PUSER undefined
+125: .u_dsize undefined
+125: .u_procp undefined
+125: call undefined
+125: .u_ssize undefined
+125: .u_tsize undefined
+125: .u_error undefined
+125: define undefined
+125: .p_textp undefined
+125: SIGSEG undefined
+125: SIGEMT undefined
+125: .call undefined
+125: SIGTRC undefined
+125: SIGFPT undefined
+125: SIGBUS undefined
+125: .p_addr undefined
+125: SIGINS undefined
+125: SIGIOT undefined
+125: SIGSYS undefined
+125: .p_ndis undefined
+125: .u_dirp undefined
+125: EBIT undefined
+125: .p_size undefined
+125: u undefined
+125: .u_ar0 undefined
+125: ssr undefined
+125: count undefined
+125: .u_arg undefined
+125: UMODE undefined
+125: SINCR undefined
+125: .p_pri undefined
+125: .x_ccoun undefined
+125: .count undefined
+131: Illegal structure ref
+131: Illegal lvalue
+131: Lvalue required
+133: call undefined
+133: define undefined
+133: EBIT undefined
+133: .u_qsav undefined
+133: u undefined
+133: count undefined
+133: UMODE undefined
+138: Illegal structure ref
+138: Illegal lvalue
+138: Lvalue required
+138: Illegal indirection
+139: Illegal structure ref
+139: Illegal lvalue
+139: Lvalue required
+140: call undefined
+140: .u_error undefined
+140: define undefined
+140: EBIT undefined
+140: u undefined
+140: .u_ar0 undefined
+140: count undefined
+140: UMODE undefined
+144: call undefined
+144: define undefined
+144: EBIT undefined
+144: count undefined
+144: UMODE undefined
+146: call undefined
+146: define undefined
+146: EBIT undefined
+146: count undefined
+146: UMODE undefined
+../lib1: non existent
+main.o -- cannot open

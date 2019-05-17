@@ -12,7 +12,7 @@ SIMINI = "./boot.ini"
 
 # Time between lines
 # Just putting everything in will crash the simulator
-TBL = 1.0
+TBL = 0.1
 
 print("Execution started")
 
@@ -22,18 +22,18 @@ from appscript import app, k
 
 
 commands = []
-def execute(cmd, newline=True):
+def execute(cmd, newline=True, control=None, timeskip=0):
     end = '\n' if newline else ''
     #print(cmd + end, end='')
-    commands.append(cmd + end)
+    commands.append(((cmd + end), control, timeskip))
     #time.sleep(TBL)
 
 ######################################
 # GATHER COMMANDS
 ######################################
 
-execute("unix") # choose kernel
-execute("root") # log in
+#execute("unix") # choose kernel
+#execute("root") # log in
 
 ### CREATE OUTPATH DIRECTORIES ###
 outpathComps = OUTPATH.split("/")
@@ -42,7 +42,6 @@ for i in range(len(outpathComps)-1):
 
 ### CREATE AND FILL FILES AND SUBDIRS ###
 for (root, dirs, files) in os.walk(INPATH):
-    continue
     simRoot = OUTPATH + root.split(INPATH)[1] + "/"
     
     # Create subdirectories
@@ -51,6 +50,7 @@ for (root, dirs, files) in os.walk(INPATH):
 
     # Create Files
     for f in files:
+        execute("", timeskip=2)
         if f.startswith('.'):
             continue
         execute("cat > " + simRoot + f)
@@ -62,9 +62,13 @@ for (root, dirs, files) in os.walk(INPATH):
                 execute(line)
 
         # end cat with control-d
-        execute('\n\x04', newline=False)
+        execute('d', newline=False, control=k.control_down)
 
-execute('\x05', newline=False) # control e to quit simh
+execute('sync')
+execute('sync')
+execute('sync')
+execute('sync')
+execute('e', newline=False, control=k.control_down) # control e to quit simh
 execute('exit')
 
 print ("Will now paste %d lines" % (len(commands)))
@@ -79,39 +83,19 @@ except KeyboardInterrupt:
 # START SIMULATOR
 ######################################
 
-#sim = subprocess.Popen([SIMPATH, SIMINI], stdin=subprocess.PIPE, shell=True)
-sim = subprocess.Popen(["sh"], stdin=subprocess.PIPE)
+print("Now select the Terminal")
+time.sleep(4)
 
-try:
-    execute(SIMPATH)
-    #for cmd in commands:
-    #    time.sleep(TBL)
-    #    sim.stdin.write(cmd.encode())
-    #    sim.stdin.flush()
-
-    #sim.stdin.write('\x04'.encode())
-
-    sim.stdin.write((SIMPATH + "\n").encode())
-    sim.stdin.flush()
-
-    time.sleep(2)
-
-    parent = psutil.Process(sim.pid)
-    for p in parent.children(recursive=True):
-        print(p)
-
-    sim.stdin.write(b"unix\n")
-
-    time.sleep(2)
-    sim.stdin.write(b"root\n")
-    
-    print("Done commands")
-    time.sleep(5)
-    sim.stdin.close()
-finally:
-    sim.terminate()
-    try:
-        sim.wait(timeout=0.2)
-        print('== subprocess exited with rc =', sim.returncode)
-    except subprocess.TimeoutExpired:
-        print('subprocess did not terminate in time')
+n = 0
+for cmd in commands:
+    n += 1
+    if cmd[2] > 0:
+        print("Command: %05d / %05d" % (n, len(commands)))
+        time.sleep(cmd[2])
+        continue
+    time.sleep(TBL)
+    print(cmd[0], end='')
+    if cmd[1]:
+        app('System Events').keystroke(cmd[0], using=cmd[1])
+    else:
+        app('System Events').keystroke(cmd[0])
